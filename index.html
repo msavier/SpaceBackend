@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>SPACE</title>
+
+  <link rel="icon" 
+      type="image/png" 
+      href="font/material-design-icons/rocket.png">
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href='https://fonts.googleapis.com/css?family=Orbitron:400,500,900,700' rel='stylesheet' type='text/css'>
+</head>
+    
+<body>
+  
+    
+  <!-- Blue Nav Bar   -->
+    
+<nav class="blue-grey darken-4 navigation z-depth-3">
+  <div class="nav-wrapper">
+   <ul id="nav-mobile" class="right">
+
+
+
+ <!-- Logout Button  -->  
+   <li class="right"><a href="#!" class="amber-text  tooltipped" data-position="bottom"data-delay="50" data-tooltip="Logout"><i class="material-icons">exit_to_app</i></a></li>
+
+<!-- Create Page Info Modal Trigger --> 
+    <li class="right"><a href="#welcomeInfo" class="amber-text  tooltipped modal-trigger waves-effect waves-light" data-position="bottom"data-delay="50" data-tooltip="Info"><i class="material-icons">info_outline</i></a></li>
+
+<!-- Create Page Info Modal -->
+  <div id="welcomeInfo" class="modal modal-fixed-footer">
+    <div class="modal-content black-text">
+      <h5>Welcome to Student Space!</h5>
+      <p>Hint: Select the rocket in the bottom right.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Ok!</a>
+    </div>
+  </div>
+
+      </ul>
+ <!-- Space Logo  -->  
+      <a href="home.html" class="brand-logo center white-text"><img height="100" width="100" src="font/material-design-icons/Paddedlogo.png"></a>
+
+
+  
+    <ul id="slide-out" class="side-nav white">
+           
+    <!-- SideNav Buttons   -->
+ <div class="spacer"></div>  
+ <div class="spacer"></div> 
+
+<a href="Profile.html" class="waves-effect blue white-text  waves-light btn"><i class="white-text material-icons left"><i class="material-icons">person_pin</i></i>Your Profile</a>
+    
+
+      <div class="spacer"></div>  
+        
+  
+<a href="home.html" class="waves-effect black white-text  waves-light btn"><i class="white-text material-icons left"><i class="material-icons">home</i></i>Your Spaces</a>
+    
+
+      <div class="spacer"></div>     
+            
+<a href="Create.html" class="waves-effect red white-text  waves-light btn"><i class="white-text material-icons left"><i class="material-icons">add_circle_outline</i></i>Create Space</a>
+    
+
+      <div class="spacer"></div>
+
+<a href="Join.html" class="waves-effect green white-text waves-light btn"><i class="white-text material-icons left"><i class="material-icons">group_add</i></i>Join Space</a>
+
+      <div class="spacer"></div>
+
+<a href="Settings.html" class="waves-effect waves-light amber white-text btn" data-position="bottom" data-delay="50" data-tooltip="Settings"><i class="material-icons left white-text">settings</i>Settings</a>
+  
+
+    </ul>
+
+
+    <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="mdi-navigation-menu"></i></a>
+</nav>
+
+ <!-- End of Blue Nav Bar   -->
+
+ <!-- Your Study Groups Box   -->
+
+          <h4 class="center textShadow">You're In Student Space
+          </h4>
+   
+      <div class="row">  
+      <div class="container">
+    
+    <div class="col s12 m12">
+             <div id="orbit-system">
+          <div class="system">
+
+              <div class="satellite-orbit1">
+                  <div class="satellite1"></div>
+              </div>
+
+               <div class="satellite-orbit2">
+                  <div class="satellite2"></div>
+              </div>
+
+              <div class="satellite-orbit3">
+                  <div class="satellite3"></div>
+              </div>
+               <div class="satellite-orbit4">
+                  <div class="satellite4"></div>
+              </div>
+               <div class="satellite-orbit5">
+                  <div class="satellite5"></div>
+              </div>
+
+              <div class="planet"></div>
+
+        </div>
+    </div>
+            
+    </div>
+   
+    </div>
+    </div>
+          
+        
+  
+
+    <!-- Rocket Floating Button -->
+<div id="wrapper">
+  <span><img src="http://s22.postimg.org/8738mevg1/rocketbevel.png" class="fa"></span>
+
+<div class="fixed-action-btn" id="rocketFloatButtons">
+     <a class="">
+      <i style="opacity:0" class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+                  <li>
+                    <a href="Profile.html" class="btn-floating blue modal-trigger"><i class="material-icons">person_pin</i></a>
+                    <a href="Profile.html" class="btn-floating mobile-fab-tip modal-trigger">Your Profile</a>
+                  </li> 
+
+                  <li>
+                    <a href="home.html" class="btn-floating black modal-trigger"><i class="material-icons">home</i></a>
+                    <a href="home.html" class="btn-floating mobile-fab-tip modal-trigger">Your Spaces</a>
+                  </li>
+
+              
+                  
+                  <li>
+                    <a href="Create.html" class="btn-floating red"><i class="material-icons">add_circle_outline</i></a>
+                    <a href="Create.html" class="btn-floating mobile-fab-tip">Create a Space</a>
+                  </li>
+                  
+                  <li>
+                    <a href="#" class="btn-floating green"><i class="material-icons">group_add</i></a>
+                    <a href="Join.html" class="btn-floating mobile-fab-tip">Join a Space</a>
+                  </li>
+                    
+                  <li>
+                    <a href="Settings.html" class="btn-floating amber modal-trigger"><i class="material-icons">settings</i></a>
+                    <a href="Settings.html" class="btn-floating mobile-fab-tip modal-trigger">Settings</a>
+                  </li>
+                    
+                </ul>
+  </div>
+
+  </div>
+
+<!-- End Rocket Floating Button -->
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
