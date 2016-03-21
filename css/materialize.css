@@ -8735,7 +8735,7 @@ input[type=search]:disabled,
 input[type=search][readonly="readonly"],
 textarea.materialize-textarea:disabled,
 textarea.materialize-textarea[readonly="readonly"] {
-  color: rgba(0, 0, 0, 0.26);
+  color: #039be5;
   border-bottom: 1px dotted rgba(0, 0, 0, 0.26);
 }
 
@@ -8762,7 +8762,7 @@ input[type=search]:disabled + label,
 input[type=search][readonly="readonly"] + label,
 textarea.materialize-textarea:disabled + label,
 textarea.materialize-textarea[readonly="readonly"] + label {
-  color: rgba(0, 0, 0, 0.26);
+  color: #039be5;
 }
 
 input:not([type]):focus:not([readonly]),
@@ -8777,8 +8777,8 @@ input[type=tel]:focus:not([readonly]),
 input[type=number]:focus:not([readonly]),
 input[type=search]:focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid #26a69a;
-  box-shadow: 0 1px 0 0 #26a69a;
+  border-bottom: 1px solid #039be5;
+  box-shadow: 0 1px 0 0 #039be5;
 }
 
 input:not([type]):focus:not([readonly]) + label,
@@ -8957,7 +8957,7 @@ textarea.materialize-textarea + label:after {
 }
 
 .input-field .prefix.active {
-  color: #2196f3;
+  color: #039be5;
 }
 
 .input-field .prefix ~ input,
@@ -9000,7 +9000,7 @@ textarea.materialize-textarea + label:after {
   background-color: #fff;
   border: 0;
   box-shadow: none;
-  color: #444;
+  color: #039be5;
 }
 
 .input-field input[type=search]:focus + label i,
