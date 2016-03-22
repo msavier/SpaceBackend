@@ -593,3 +593,72 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+.button, .button--orange, .email_adder__button, .email {
+  font-size: 16px;
+  line-height: 15px;
+  padding: 15px;
+  color: white;
+  font-family: arial, sans-serif;
+  letter-spacing: 1px;
+  border: solid 1px #c0c0c0;
+  border-radius: 3px;
+  background: black;
+  background: linear-gradient(#cdcdcd, #b6b6b6);
+  cursor: pointer;
+}
+
+.button--orange, .email_adder__button, .email {
+  border: solid 1px #db8e00;
+  background: black;
+  background: linear-gradient(#ffae1a, #eb9800);
+}
+.button--orange:hover, .email_adder__button:hover, .email:hover, .button--orange:focus, .email_adder__button:focus, .email:focus {
+  background: black;
+  background: linear-gradient(#ffb329, #faa200);
+}
+
+.email_list {
+  padding: 0 15px;
+  border-bottom: solid 1px #c0c0c0;
+}
+
+.navpanel {
+  padding: 15px;
+  text-align: right;
+}
+
+.email_adder {
+  display: flex;
+  padding: 15px;
+  line-height: 15px;
+  font-size: 0px;
+  font-family: arial, sans-serif;
+}
+.email_adder__input, .email_adder__button {
+  font-size: 16px;
+  font-family: inherit;
+  padding: inherit;
+  line-height: inherit;
+  vertical-align: top;
+}
+.email_adder__input {
+  flex: 1 1 auto;
+  width: 100%;
+  border: solid 1px #c0c0c0;
+  background: linear-gradient(#fff, #f9f9f9);
+}
+.email_adder__button {
+  flex: 0 1 auto;
+  line-height: 16px;
+  border-left: 0;
+  padding-bottom: 13px;
+  border-radius: 0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.email {
+  display: inline-block;
+  margin: 0 10px 15px 0;
+}
