@@ -5,3 +5,9 @@ glassfish4/
 *.swp
 *.swo
 *~
+
+#ignore the target folder (where package is created)
+space-webapp/target/
+
+#windows hidden folder settings
+desktop.ini
