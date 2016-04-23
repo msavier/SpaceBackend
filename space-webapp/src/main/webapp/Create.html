@@ -18,865 +18,1097 @@
     
 <body>
   
+      
+   
     
-    <!-- Blue Nav Bar   -->
+  <!-- Nav Bar   -->
     
-<nav class="blue-grey darken-4 navigation z-depth-3">
+<nav class="blue-grey lighten-5 navigation z-depth-0" style="height:100px">
   <div class="nav-wrapper">
    <ul id="nav-mobile" class="right">
 
+<!-- Menu Button -->  
+ <li class="right"><a href="#" data-activates="slide-out" class="button-collapse show-on-large blue-grey lighten-5" style="border-radius:1000px"><i class=" blue-grey-text material-icons">more_horiz</i></a></li>
 
 
- <!-- Logout Button  -->  
-   <li class="right"><a href="#!" class="amber-text  tooltipped" data-position="bottom"data-delay="50" data-tooltip="Logout"><i class="material-icons">exit_to_app</i></a></li>
-
-<!-- Create Page Info Modal Trigger --> 
-    <li class="right"><a href="#createInfo" class="amber-text  tooltipped modal-trigger waves-effect waves-light waves-light" data-position="bottom"data-delay="50" data-tooltip="Info"><i class="material-icons">info_outline</i></a></li>
 
 <!-- Create Page Info Modal -->
-  <div id="createInfo" class="modal modal-fixed-footer">
+  <div id="welcomeInfo" class="modal modal-fixed-footer">
     <div class="modal-content black-text">
-      <h5>Creating a Public Space:</h5>
-      <p>Select what type of Space (Project, Study, Tutor, Sports...etc) and fill in the form according to the type of Space you selected.</p>
-      <h5>Creating a Private Space:</h5>
-      <p>Private Spaces can be made through UCSD email invitation.</p>
+      <h5>Welcome to Student Space!</h5>
+      <p>Hint: Select the rocket in the bottom right.</p>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-light waves-green btn-flat ">Ok!</a>
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Ok!</a>
     </div>
   </div>
 
       </ul>
  <!-- Space Logo  -->  
-      <a href="home.html" class="brand-logo center white-text"><img height="100" width="100" src="font/material-design-icons/PaddedLogo.png"></a>
+      <a href="home.html" class="brand-logo center"><span><span style="color:#78909c; font-family:Righteous; font-size:.5em">Student</span><span style="color:#78909c; font-family:Righteous; font-size:1em">Space</h4></span></a>
 
 
   
-    <ul id="slide-out" class="side-nav white">
+    <ul id="slide-out" class="side-nav blue-grey darken-3">
            
     <!-- SideNav Buttons   -->
-      <div class="spacer"></div>  
+  <div style="height:2em"></div> 
 
- <a href="home.html" class="center" style="height:100px"><img height="100" width="100" src="font/material-design-icons/rocket.png"></a>
+             <div id="orbit-system">
+          <div class="system">
 
-  <div class="spacer"></div>  
- <div class="spacer"></div> 
+              <div class="satellite-orbit1">
+                  <div class="satellite1"></div>
+              </div>
+
+               <div class="satellite-orbit2">
+                  <div class="satellite2"></div>
+              </div>
+
+              <div class="satellite-orbit3">
+                  <div class="satellite3"></div>
+              </div>
+               <div class="satellite-orbit4">
+                  <div class="satellite4"></div>
+              </div>
+               <div class="satellite-orbit5">
+                  <div class="satellite5"></div>
+              </div>
+
+              <div class="planet"></div>
+
+        </div>
+    </div>
+            
  
 
-<a href="Profile.html" class="waves-effect waves-light blue white-text  waves-light btn"><i class="white-text material-icons left"><i class="material-icons">person_pin</i></i>Your Profile</a>
+<a style="font-size:1.5em; margin-top:-1.5em" href="Profile.html" class="waves-effect blue-grey darken-4 white-text waves-light"><i class="white-text material-icons left"><i class="material-icons">person_pin</i></i><strong>Profile</strong></a>
     
-
-      <div class="spacer"></div>  
-        
+<div class="spacer"></div>
+      
   
-<a href="home.html" class="waves-effect waves-light black white-text  waves-light btn"><i class="white-text material-icons left"><i class="material-icons">home</i></i>Your Spaces</a>
+<a style="font-size:1.5em; width:100%" href="home.html" class="waves-effect blue-grey darken-4 white-text  waves-light"><i class="white-text material-icons left"><i class="material-icons">home</i></i><strong>Home</strong></a>
     
-
-      <div class="spacer"></div>     
+<div class="spacer"></div>
+   
             
-<a href="Create.html" class="waves-effect waves-light red white-text  waves-light btn"><i class="white-text material-icons left"><i class="material-icons">add_circle_outline</i></i>Create Space</a>
+<a style="font-size:1.5em; width:100%" href="Create.html" class="waves-effect blue-grey darken-4 white-text  waves-light"><i class="white-text material-icons left"><i class="material-icons">add_circle_outline</i></i><strong>Create</strong></a>
+    
+<div class="spacer"></div>
     
 
-      <div class="spacer"></div>
+<a style="font-size:1.5em; width:100%" href="Join.html" class="waves-effect blue-grey darken-4 white-text waves-light"><i class="white-text material-icons left"><i class="material-icons">group_add</i></i><strong>Join</strong></a>
 
-<a href="Join.html" class="waves-effect waves-light green white-text waves-light btn"><i class="white-text material-icons left"><i class="material-icons">group_add</i></i>Join Space</a>
+<div class="spacer"></div>
 
-      <div class="spacer"></div>
-
-<a href="Settings.html" class="waves-effect waves-light waves-light amber white-text btn" data-position="bottom" data-delay="50" data-tooltip="Settings"><i class="material-icons left white-text">settings</i>Settings</a>
+<a style="font-size:1.5em; width:100%" href="Settings.html" class="waves-effect waves-light blue-grey darken-4 white-text" data-position="bottom" data-delay="50" data-tooltip="Settings"><i class="material-icons left white-text">settings</i><strong>Settings</strong></a>
   
 
     </ul>
 
+<ul>
+<!-- Logout Button  -->  
+   <li><a href="#!" class=" blue-grey-text  tooltipped" data-position="bottom"data-delay="50" data-tooltip="Logout"><i class="material-icons">exit_to_app</i></a></li>
 
-    <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="mdi-navigation-menu"></i></a>
+<!-- Create Page Info Modal Trigger --> 
+    <li><a href="#welcomeInfo" class=" blue-grey-text tooltipped modal-trigger waves-effect waves-light" data-position="bottom"data-delay="50" data-tooltip="Info"><i class="material-icons">info_outline</i></a></li>
+</ul>
+   
 </nav>
+ <div class="sexy_line"></div>
+ <!-- End of Nav Bar   -->
 
- <!-- End of Blue Nav Bar   -->
+    <div class="col s12 center">
+      <ul class="tabs">
+        <li class="tab col s3"><a href="#privateSpace">Private</a></li>
 
- <!-- Your Profile   -->
+        <li class="tab col s3"><a href="#studySpace">Study</a></li>
 
-          <h4 class="center textShadow">Create a Space
-          </h4>
+        <li class="tab col s3"><a href="#projectSpace">Project</a></li>
 
+        <li class="tab col s3"><a href="#sportSpace">Sport</a></li>
 
-    <div class="col s12">
-      <ul class="tabs" style="font-size:10px;">
+        <li class="tab col s3"><a href="#eventSpace">Event</a></li>
 
-       <li class="tab col s3"><a href="#privateSpaceForm">Private</a></li>
+        <li class="tab col s3"><a href="#housingSpace">Housing</a></li>
 
-        <li class="tab col s3"><a href="#studySpaceForm">Study</a></li>
-        
-        <li class="tab col s3"><a class="active" href="#projectSpaceForm">Project</a></li>
-        
-        <li class="tab col s3"><a href="#sportSpaceForm">Sport</a></li>
-        
-        <li class="tab col s3"><a href="#eventSpaceForm">Event</a></li>
-        
-        <li class="tab col s3"><a href="#housingSpaceForm">Housing</a></li>
-        
-        <li class="tab col s3"><a class="active" href="#tutorSpaceForm">Tutor</a></li>
-        
-        <li class="tab col s3"><a href="#textbookSpaceForm">Textbook</a></li>
-        
-        <li class="tab col s3"><a href="#carpoolSpaceForm">Carpool</a></li>
-       
-        <li class="tab col s3"><a href="#crewSpaceForm">Crew</a></li>
-        
-        <li class="tab col s3"><a href="#lostSpaceForm">Lost'n'Found</a></li>
+        <li class="tab col s3"><a href="#tutorSpace">Tutor</a></li>
+
+        <li class="tab col s3"><a href="#textbookSpace">Textbook</a></li>
+
+        <li class="tab col s3"><a href="#carpoolSpace">Carpool</a></li>
+
+        <li class="tab col s3"><a href="#crewSpace">Crew</a></li>
+
+        <li class="tab col s3"><a href="#lostSpace">Lost</a></li>
+
       </ul>
     </div>
-
-
-<div id="privateSpaceForm" style="padding-top:25px">
-   <div class="container">
-        <div class="row">
-
-<div class="emails">
-
-
-  <form class="email_adder" id="email_adder">
-    <input class="email_adder__input black-text" type="text" name="add_email" id="add_email" placeholder="Enter Email" />
-
-    <input type="submit" class="email_adder__button" value="Add Email" />
-  </form>
-
-  <div class="email_list" id="email_list"></div>
   
-  <div class="navpanel">
-    <button class="button" id="pop">Remove Last</button>
-    <button class="button" id="sort">Sort A-Z</button>
-  </div>
+
+ <!-- Start of Private Space Tab Data   -->
+<div id="privateSpace" class="col s12">
+
+<h4 class="center textShadow">Create a Private Space
+</h4>
+
+<div class="row">
+    <div class="col s12 center">
+
+   <span style="color:black">Private Spaces are meant for inviting participants you already know via email. It will only be visible to those you have invited.</span>
+
+   </div>
 </div>
 
 
-    <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="Title">
-      </div>
+<div class="container">
+<div class="row">
+    
+     <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Title your Private Space</label>
+  </div>
 
- <div class="col s12 m6">
-      <form action="#">
-        <div class="file-field input-field">
-         <div class="btn blue">
-           <span>Upload Pics</span>
-            <input type="file" multiple>
-         </div>
-              <div class="file-path-wrapper">
-                <input class="file-path validate" type="text" placeholder="Optional">
-            </div>
+  <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Location</label>
+  </div>
+    
+ <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Emails of Participants</label>
+  </div>
+
+  <div class="input-field col s12 m6">
+         <div class="file-field input-field">
+      <div class="blue btn">
+        <span><i class="material-icons">camera_alt</i></span>
+        <input type="file" multiple>
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text" placeholder="Upload one or more images - Optional">
+      </div>
+    </div>
+  </div>
+
+
+   <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">In-Group Description</label>
         </div>
-      </form>
-      </div>
 
-       
-      <div class="input-field col s12 m6">
-          <input class="validate center black-text" placeholder="Location">
-      </div>
+     
+    <!--Form Row End-->  
+  </div>
 
-    <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="Public Description">
-      </div>
 
-      <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="In-Group Description">
-      </div>
+<div class="row">
+<button class="btn waves-effect blue waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+</div>
+<!--Form and Button Container End-->  
+</div>
+<!--End of Private Space Form Tab Data--> 
+</div>
 
-      <div class="row" style="margin-top:30px"> <div class="col s12 m12 center" style="padding:60px">
-            <button class="btn waves-effect waves-light black waves-light" type="submit" name="action">Send Private Space Invitation
-               <i class="material-icons right">send</i>
-            </button> </div>
-        </div>
+<!-- Start of Study Space Tab Data   -->
+<div id="studySpace" class="col s12">
 
+    <h4 class="center textShadow">Create a Study Space</h4>
+
+    <div class="row">
+        <div class="col s12 center">
+            <span style="color:black">Study Spaces are meant to enable study group formation for your specific enrolled classes.</span>
         </div>
     </div>
-</div>
 
-
-<!--Study Space-->
-<div id="studySpaceForm" style="padding-top:25px">
-    <form action="webapi/create-study-space" method="POST">
-        <div class="container">
+    <div class="container">
+        <form action="webapi/create-study-space" method="POST">
             <div class="row">
-    
-                <!--Title-->
+     
+                <!--Title-->   
                 <div class="input-field col s12 m6">
-                    <input name="title" class="validate center black-text" placeholder="Title">
+                    <input name="title" id="icon_prefix" type="text" class="validate">
+                    <label for="icon_prefix">Title your Study Space</label>
                 </div>
 
-                <!--Images-->
-                <div class="col s12 m6">
-                    <div class="file-field input-field">
-                        <div class="btn blue">
-                        <span>Upload Pics</span>
-                            <input name="images" type="file" multiple>
-                        </div>
-                        <div class="file-path-wrapper">
-                            <input class="file-path validate" type="text" placeholder="Optional">
-                        </div>
-                    </div>
+                <!--Location-->
+                <div class="input-field col s12 m6">
+                    <input name="location" id="icon_prefix" type="text" class="validate">
+                    <label for="icon_prefix">Location</label>
                 </div>
-
+        
                 <!--Course-->
                 <!--Will Be Updated Once School Sends us Info of Classes-->
                 <div class="input-field col s12 m6 black-text">
                     <select name="course" class="icons">
                         <option value="" disabled selected>Select a Class</option>
-                        <option value="" class="center">BIMM 100</option>
+                        <option value="" class=" center">BIMM 100</option>
                         <option value="">CHEM 6A</option>
-                        <option value="" >Other</option>
+                        <option value="" > Other</option>
                     </select>
                 </div>
-                
-                <!--Location-->
-                <div class="input-field col s12 m6">
-                    <input name="location" class="validate center black-text" placeholder="Location">
-                </div>
 
-                <!--Public Description-->
-                <div class="input-field col s12 m6">
-                    <input name="public-description" class="validate center black-text" placeholder="Public Description">
+                <!--Proffessor-->
+                <!--Will Be Updated Once School Sends us Info of Classes-->
+                <div class="input-field col s12 m6 black-text">
+                    <select name="professor" class="icons">
+                        <option value="" disabled selected>Select a Teacher</option>
+                        <option value="" class=" center">Rachel Lauret</option>
+                        <option value="">Robert Tern</option>
+                        <option value="" > Other</option>
+                    </select>
+                
                 </div>
 
                 <!--Group Description-->
-                <div class="input-field col s12 m6">
-                    <input name="group-description" class="validate center black-text" placeholder="In-Group Description">
-                </div>    
-
-                <!---Submit-->
-                <div class="row"> <div style="padding:60px" class="col s12 m12 center">
-                    <button class="btn waves-effect waves-light black waves-light" type="submit" name="action">Submit
-                    <i class="material-icons right">send</i>
-                    </button> </div>
+                <div class="input-field col s12">
+                    <textarea name="group-description" id="textarea1" class="materialize-textarea"></textarea>
+                    <label for="textarea1">In-Group Description</label>
                 </div>
-        
+
+                <!--Public Description-->
+                <div class="input-field col s12">
+                    <textarea name="public-description" id="textarea2" class="materialize-textarea"></textarea>
+                    <label for="textarea2">Public Description</label>
+                </div>
+
+                <!--Images-->
+                <div class="input-field col s12 m6">
+                    <div class="file-field input-field">
+                        <div class="blue btn">
+                            <span><i class="material-icons">camera_alt</i></span>
+                            <input name="images" type="file" multiple>
+                        </div>
+                        <div class="file-path-wrapper">
+                            <input class="file-path validate" type="text" placeholder="Upload one or more images - Optional">
+                        </div>
+                    </div>
+                </div>
+   
+                <!--Submit-->
+                <div class="row">
+                    <button class="btn waves-effect blue waves-light" type="submit" name="action">Submit
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
             </div>
-        </div>
-   </form>
+            <!--Form Row End-->  
+        </form>
+    <!--Form and Button Container End-->  
+    </div>
+<!--End of Study Space Form Tab Data--> 
 </div>
+         
+          
+   <!-- Start of Project Space Tab Data   -->
+<div id="projectSpace" class="col s12">
 
-    
+    <h4 class="center textShadow">Create a Project Space
+    </h4>
 
+    <div class="row">
+        <div class="col s12 center">
+        <span style="color:black">Have an idea for a project? Use Project Space to find UCSD students interested in making it!</span>
+        </div>
+    </div>
 
-<!--Project Space-->
-<div id="projectSpaceForm" class="col s12" style="padding-top:25px">
-    <form action="webapi/create-project-space" method="post">
-        <div class="container">
+    <div class="container">
+        <form action="webapi/create-project-space/" method="POST">
             <div class="row">
-
+            
                 <!--Title-->
                 <div class="input-field col s12 m6">
-                    <input name="title" class="validate center black-text" placeholder="Title">
+                    <input name="title" id="icon_prefix" type="text" class="validate">
+                    <label for="icon_prefix">Title your Project Space</label>
                 </div>
 
-                <!--Field-->
+                <!--Location-->
+                <div class="input-field col s12 m6">
+                    <input name="location" id="icon_prefix" type="text" class="validate">
+                    <label for="icon_prefix">Location</label>
+                </div>
+            
+                <!--Type-->
                 <div class="input-field col s12 m6 black-text">
-                    <select name ="field" class="icons">
-                        <option value="" disabled selected>Select a Field</option>
-                        <option value="" class="center">Biology</option>
-                        <option value="" >Enviornmental Engineering</option>
-                        <option value="">Electrical Engineering</option>
-                        <option value="">Structural Engineering</option>
-                        <option value="" >Mechanical/Aerospace Engineering</option>
-                        <option value="" >Computer Science Project</option>
+                    <select name="type" class="icons">
+                        <option value="" disabled selected>Select a Project Type</option>
+                        <option value="" class=" center">Biology Project</option>
+                        <option value="" > Enviornmental Engineering Project</option>
+                        <option value="">Electrical Engineering Project</option>
+                        <option value=""> Structural Engineering Project</option>
+                        <option value="" > Mechanical/Aerospace Engineering Project</option>
+                        <option value="" >Computer Science Project Project</option>
                         <option value="" >Design Project</option>
                         <option value="" >Other</option>
                     </select>
                 </div>
-                
-                <!--Images-->
-                <div class="col s12 m6">
-                    <div class="file-field input-field">
-                        <div class="btn blue">
-                            <span>Upload Pics</span>
-                            <input name="images" type="file" multiple>
-                        </div>
-                        
-                        <div class="file-path-wrapper">
-                            <input class="file-path validate" type="text" placeholder="Optional">
-                        </div>
-                    </div>
-                </div>
 
-                <!--Location-->
-                <div class="input-field col s12 m6">
-                    <input name="location" lass="validate center black-text" placeholder="Location">
-                </div>
-
-                <!--Public Description-->
-                <div class="input-field col s12 m6">
-                    <input name="public-description" class="validate center black-text" placeholder="Public Description">
+                <!--Other Type-->
+                <div name="other-type" class="input-field col s12 m6">
+                        <input id="icon_prefix" type="text" class="validate">
+                        <label for="icon_prefix">Type of Project if Other</label>
                 </div>
 
                 <!--Group Description-->
+                <div class="input-field col s12">
+                    <textarea name="group-description" id="textarea1" class="materialize-textarea"></textarea>
+                    <label for="textarea1">In-Group Description</label>
+                </div>
+
+                <!--Public Description-->
+                <div class="input-field col s12">
+                    <textarea name="public-description" id="textarea2" class="materialize-textarea"></textarea>
+                    <label for="textarea2">Public Description</label>
+                </div>
+
+                <!--Images-->
                 <div class="input-field col s12 m6">
-                    <input name="group-description" class="validate center black-text" placeholder="In-Group Description">
+                    <div class="file-field input-field">
+                        <div class="blue btn">
+                            <span><i class="material-icons">camera_alt</i></span>
+                            <input name="images" type="file" multiple>
+                        </div>
+                        <div class="file-path-wrapper">
+                            <input class="file-path validate" type="text" placeholder="Upload one or more images - Optional">
+                        </div>
+                    </div>
                 </div>
-
-                <!--Sumbit-->
-                <div class="row" style="margin-top:30px"> <div style="padding:60px" class="col s12 m12 center">
-                        <button class="btn waves-effect waves-light black waves-light" type="submit" name="action">Submit
-                        <i class="material-icons right">send</i>
-                        </button> </div>
+                
+                <!--Submit-->
+                <div class="row">
+                <button class="btn waves-effect blue waves-light" type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                </button>
                 </div>
-
+                    
+            <!--Form Row End-->  
             </div>
-        </div>
-    </form>
+        </form>
+    <!--Form and Button Container End-->  
+    </div>
+<!--End of Project Space Form Tab Data--> 
 </div>
 
-<!--Sport Space-->
-<div id="sportSpaceForm" class="col s12" style="padding-top:25px">
-    <form action="webapi/create-sport-space" method="POST">
        
-        <!--Title-->
-        <div class="container">
-            <div class="row">
-            <div class="input-field col s12 m6">
-            <input name="title" class="validate center black-text" placeholder="Title">
-        </div>
+   <!-- Start of Sport Space Tab Data   -->
+<div id="sportSpace" class="col s12">
 
-        <!--Sport-->
-        <div class="input-field col s12 m6 black-text">
-            <select name="sport" class="icons">
-                <option value="" disabled selected>Select a Sport</option>
-                <option value="">Basketball</option>
-                <option value="">Tennis</option>
-                <option value="">Volleyball</option>
-                <option value="">Surfing</option>
-                <option value="" >Track</option>
-                <option value="" >Soccer</option>
-                <option value="" >Baseball</option>
-                <option value="" >Football</option>
-                <option value="" >Racquetball</option>
-                <option value="" >Martial Arts</option>
-                <option value="" >Ping Pong</option>
-                <option value="" >Badminton</option>
-                <option value="" >Golf</option>
-                <option value="" >Swimming</option>
-                <option value="" >Water Polo</option>
-                <option value="" >Ultimate Frisbee</option>
-                <option value="" >Softball</option>
-                <option value="" >Weight Lifting</option>
-                <option value="" >Other</option>
-            </select>
-    </div>
+<h4 class="center textShadow">Create a Sport Space
+</h4>
 
-    <!--Images-->
-    <div class="col s12 m6">
-            <div class="file-field input-field">
-            <div class="btn blue">
-            <span>Upload Pics</span>
-                <input name="images" type="file" multiple>
-            </div>
-                <div class="file-path-wrapper">
-                    <input class="file-path validate" type="text" placeholder="Optional">
-                </div>
-            </div>
-        </div>
+<div class="row">
+    <div class="col s12 center">
 
-        <!--Location-->
-        <div class="input-field col s12 m6">
-            <input name="location" class="validate center black-text" placeholder="Location">
-        </div>
+   <span style="color:black">Set up a game with UCSD students, meet new people and have fun.</span>
 
-        <!--Public Description-->
-        <div class="input-field col s12 m6">
-            <input name="public-description" class="validate center black-text" placeholder="Public Description">
-        </div>
-
-        <!--Group Description-->
-        <div class="input-field col s12 m6">
-            <input name="groupclass="validate center black-text" placeholder="In-Group Description">
-        </div>
-
-
-        <div class="row" style="margin-top:30px"> <div style="padding:60px" class="col s12 m12 center">
-                <button class="btn waves-effect waves-light black waves-light" type="submit" name="action">Submit
-                <i class="material-icons right">send</i>
-                </button> </div>
-            </div>
-
-
-        </div>
-    </div>
-  </form>
+   </div>
 </div>
 
 
-<div id="eventSpaceForm" class="col s12" style="padding-top:25px">
-    <div class="container">
-      <div class="row">
+<div class="container">
+<div class="row">
+    
+     <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Title your Sport Space</label>
+  </div>
 
-      <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="Title">
-      </div>
+  <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Location</label>
+  </div>
+    
 
-       <div class="col s12 m6">
-      <form action="#">
-        <div class="file-field input-field">
-         <div class="btn blue">
-           <span>Upload Pics</span>
-            <input type="file" multiple>
-         </div>
-              <div class="file-path-wrapper">
-                <input class="file-path validate" type="text" placeholder="Optional">
-            </div>
+  <div class="input-field col s12 m6 black-text">
+        <select class="icons">
+            <option value="" disabled selected>Select a Sport</option>
+            <option value="">Basketball</option>
+            <option value="">Tennis</option>
+            <option value="">Volleyball</option>
+            <option value="">Surfing</option>
+            <option value="" >Track</option>
+            <option value="" >Soccer</option>
+            <option value="" >Baseball</option>
+            <option value="" >Football</option>
+            <option value="" >Racquetball</option>
+            <option value="" >Martial Arts</option>
+            <option value="" >Ping Pong</option>
+            <option value="" >Badminton</option>
+            <option value="" >Golf</option>
+            <option value="" >Swimming</option>
+            <option value="" >Water Polo</option>
+            <option value="" >Normal Frisbee</option>
+            <option value="" >Ultimate Frisbee</option>
+            <option value="" >Softball</option>
+            <option value="" >Weight Lifting</option>
+            <option value="" >Other</option>
+        </select>
+    
+  </div>
+
+<div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Type of Sport if Other</label>
+  </div>
+
+ <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">In-Group Description</label>
         </div>
-      </form>
-      </div>
 
-      <div class="input-field col s12 m6 black-text">
+  <div class="input-field col s12">
+          <textarea id="textarea2" class="materialize-textarea"></textarea>
+          <label for="textarea2">Public Description</label>
+        </div>
+
+   <div class="input-field col s12 m6">
+         <div class="file-field input-field">
+      <div class="blue btn">
+        <span><i class="material-icons">camera_alt</i></span>
+        <input type="file" multiple>
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text" placeholder="Upload one or more images - Optional">
+      </div>
+    </div>
+  </div>
+     
+    <!--Form Row End-->  
+  </div>
+
+
+<div class="row">
+<button class="btn waves-effect blue waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+</div>
+<!--Form and Button Container End-->  
+</div>
+<!--End of Sport Space Form Tab Data--> 
+</div>
+
+
+   <!-- Start of Event Space Tab Data   -->
+<div id="eventSpace" class="col s12">
+
+<h4 class="center textShadow">Create an Event Space
+</h4>
+
+<div class="row">
+    <div class="col s12 center">
+
+   <span style="color:black">Make your event public to all UCSD students, find students who care about your cause.</span>
+
+   </div>
+</div>
+
+
+<div class="container">
+<div class="row">
+    
+     <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Title your Event Space</label>
+  </div>
+
+  <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Location</label>
+  </div>
+    
+
+  <div class="input-field col s12 m6 black-text">
         <select class="icons">
             <option value="" disabled selected>Type of Event</option>
             <option value="">Pre-Med</option>
             <option value="">Computer Science</option>
-            <option value="" >Health & Nutrition</option>
-            <option value="" >Business</option>
-            <option value="" >Humanitarian & Advocacy</option>
-            <option value="" >Other</option>
+            <option value="" >Health & Nutrition</option>
+            <option value="" >Business</option>
+            <option value="" >Humanitarian & Advocacy</option>
+            <option value="" >Other</option>
         </select>
       </div>
 
-       <div class="input-field col s12 m6">
-          <input class="validate center black-text" placeholder="Location, for example: On-Campus, Geisel, Off-Campus...etc">
-      </div>
+<div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Type of Event if Other</label>
+  </div>
 
-      <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="Public Description">
-      </div>
-
-      <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="In-Group Description">
-      </div>
-
-      <div class="row" style="margin-top:30px"> <div style="padding:60px" class="col s12 m12 center">
-            <button class="btn waves-effect waves-light black waves-light" type="submit" name="action">Submit
-               <i class="material-icons right">send</i>
-            </button> </div>
+ <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">In-Group Description</label>
         </div>
 
+  <div class="input-field col s12">
+          <textarea id="textarea2" class="materialize-textarea"></textarea>
+          <label for="textarea2">Public Description</label>
+        </div>
 
-   </div>
+   <div class="input-field col s12 m6">
+         <div class="file-field input-field">
+      <div class="blue btn">
+        <span><i class="material-icons">camera_alt</i></span>
+        <input type="file" multiple>
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text" placeholder="Upload one or more images - Optional">
+      </div>
+    </div>
   </div>
+     
+    <!--Form Row End-->  
+  </div>
+
+
+<div class="row">
+<button class="btn waves-effect blue waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+</div>
+<!--Form and Button Container End-->  
+</div>
+<!--End of Event Space Form Tab Data--> 
 </div>
 
 
 
-<div id="housingSpaceForm" class="col s12">
+  <!-- Start of Housing Space Tab Data   -->
+<div id="housingSpace" class="col s12">
+
+<h4 class="center textShadow">Create a Housing Space
+</h4>
+
+<div class="row">
+    <div class="col s12 center">
+
+   <span style="color:black">If you need to find a roommate post your living quarters to Housing Space and connect with UCSD students trying to find a place to live.</span>
+
+   </div>
+</div>
+
 
 <div class="container">
-        <div class="row">
-
-        <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="Title">
-      </div>
+<div class="row">
+    
+     <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Title your Housing Space</label>
+  </div>
 
     <div class="input-field col s12 m6 black-text">
         <select class="icons">
             <option value="" disabled selected>Select a Location</option>
             <option value="">Mira Mesa Region</option>
             <option value="">Costa Verde Apartments</option>
-            <option value="">La Jolla Region</option>
-            <option value="" >Pacific Beach</option>
-            <option value="" >Downtown</option>
+            <option value=""> La Jolla Region</option>
+            <option value="" > Pacific Beach</option>
+            <option value="" > Downtown</option>
             <option value="" >Other</option>
         </select>
   </div>
 
-  <div class="input-field col s12 m6">
-          <input class="validate center black-text" placeholder="Location if Other">
-      </div>
+<div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Location if Other</label>
+  </div>
 
-     <div class="input-field col s12 m6 black-text">
+
+   <div class="input-field col s12 m6 black-text">
         <select class="icons">
             <option value="" disabled selected>Select a Price</option>
             <option value="">$300</option>
             <option value="">$400</option>
             <option value="">$500</option>
-            <option value="">$600</option>
-            <option value="" >$700</option>
-            <option value="" >$800</option>
+            <option value=""> $600</option>
+            <option value="" > $700</option>
+            <option value="" > $800</option>
             <option value="" >$900</option>
             <option value="" >$1000</option>
             <option value="" >$1100</option>
             <option value="" >$1200</option>
             <option value="" >$1300</option>
             <option value="" >$1400</option>
-            <option value="" >$1500</option>
-            <option value="" >$1600</option>
-            <option value="" >$1700</option>
-            <option value="" >$1800</option>
-            <option value="" >$1900</option>
-            <option value="" >$1900</option>
-            <option value="" >$2000+</option>
+            <option value="" > $1500</option>
+            <option value="" > $1600</option>
+            <option value="" > $1700</option>
+            <option value="" > $1800</option>
+            <option value="" > $1900</option>
+            <option value="" > $1900</option>
+            <option value="" > $2000+</option>
             
         </select>
     
   </div>
 
-     <div class="input-field col s12 m6 black-text">
+    <div class="input-field col s12 m6 black-text">
         <select class="icons">
             <option value="" disabled selected>Type of Room</option>
             <option value="">Bedroom</option>
-            <option value="">Living Room</option>
-            <option value="" >Other</option>
+            <option value=""> Living Room</option>
+            <option value="" > Other</option>
+        </select>
+    
+  </div>
+
+  <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">In-Group Description</label>
+        </div>
+
+  <div class="input-field col s12">
+          <textarea id="textarea2" class="materialize-textarea"></textarea>
+          <label for="textarea2">Public Description</label>
+        </div>
+
+   <div class="input-field col s12 m6">
+         <div class="file-field input-field">
+      <div class="blue btn">
+        <span><i class="material-icons">camera_alt</i></span>
+        <input type="file" multiple>
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text" placeholder="Upload one or more images - Optional">
+      </div>
+    </div>
+  </div>
+     
+    <!--Form Row End-->  
+  </div>
+
+
+<div class="row">
+<button class="btn waves-effect blue waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+</div>
+<!--Form and Button Container End-->  
+</div>
+<!--End of Housing Space Form Tab Data--> 
+</div>
+
+
+  <!-- Start of Tutor Space Tab Data   -->
+<div id="tutorSpace" class="col s12">
+
+<h4 class="center textShadow">Create a Tutor Space
+</h4>
+
+<div class="row">
+    <div class="col s12 center">
+
+   <span style="color:black">Are you a tutor? Post the class your tutoring for on Tutor Space and find students in the class seeking help.</span>
+
+   </div>
+</div>
+
+
+<div class="container">
+<div class="row">
+    
+     <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Title your Tutor Space</label>
+  </div>
+
+   <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Location</label>
+  </div>
+
+   <!--Will Be Updated Once School Sends us Info of Classes-->
+      <div class="input-field col s12 m6 black-text">
+        <select class="icons">
+            <option value="" disabled selected>Select a Class</option>
+            <option value="" class=" center">BIMM 100</option>
+            <option value="">CHEM 6A</option>
+            <option value="" > Other</option>
+        </select>
+      </div>
+
+      <div class="input-field col s12 m6 black-text">
+        <select class="icons">
+            <option value="" disabled selected>Select a Price</option>
+            <option value="" class="center">Free</option>
+            <option value="" class="center">$10/Hr</option>
+            <option value="">$20/Hr</option>
+            <option value="" >$30/Hr</option>
+            <option value="" >Other Price</option>
+        </select>
+      </div>
+
+  <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">In-Group Description</label>
+        </div>
+
+  <div class="input-field col s12">
+          <textarea id="textarea2" class="materialize-textarea"></textarea>
+          <label for="textarea2">Public Description</label>
+        </div>
+
+   <div class="input-field col s12 m6">
+         <div class="file-field input-field">
+      <div class="blue btn">
+        <span><i class="material-icons">camera_alt</i></span>
+        <input type="file" multiple>
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text" placeholder="Upload one or more images - Optional">
+      </div>
+    </div>
+  </div>
+     
+    <!--Form Row End-->  
+  </div>
+
+
+<div class="row">
+<button class="btn waves-effect blue waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+</div>
+<!--Form and Button Container End-->  
+</div>
+<!--End of Tutor Space Form Tab Data--> 
+</div>
+
+
+
+   <!-- Start of Textbook Space Tab Data   -->
+<div id="textbookSpace" class="col s12">
+
+<h4 class="center textShadow">Create a Textbook Space
+</h4>
+
+<div class="row">
+    <div class="col s12 center">
+
+   <span style="color:black">Have a textbook you need to sell? Post it on Textbook Space</span>
+
+   </div>
+</div>
+
+
+<div class="container">
+<div class="row">
+    
+     <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Title of Textbook</label>
+  </div>
+
+  <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Location</label>
+  </div>
+    
+<!--Will Be Updated Once School Sends us Info of Classes-->
+      <div class="input-field col s12 m6 black-text">
+        <select class="icons">
+            <option value="" disabled selected>Select a Class</option>
+            <option value="" class=" center">BIMM 100</option>
+            <option value="">CHEM 6A</option>
+            <option value="" > Other</option>
+        </select> 
+    </div>
+
+   <div class="input-field col s12 m6 black-text">
+        <select class="icons">
+            <option value="" disabled selected>Select a Price</option>
+            <option value="" class=" center">Free</option>
+            <option value="" class=" center">$10</option>
+            <option value="">$20</option>
+            <option value="" > $30</option>
+            <option value="" > $40</option>
+            <option value="" > $50</option>
+            <option value="" > $60</option>
+            <option value="" > $70</option>
+            <option value="" > $80</option>
+            <option value="" > $90</option>
+            <option value="" > $100</option>
+            <option value="" > $110</option>
+            <option value="" > $120</option>
+            <option value="" > $130</option>
+            <option value="" > $140</option>
+            <option value="" > $150+</option>
+            <option value="" > Other Price</option>
+        </select>
+      </div>
+
+ <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">In-Group Description</label>
+        </div>
+
+  <div class="input-field col s12">
+          <textarea id="textarea2" class="materialize-textarea"></textarea>
+          <label for="textarea2">Public Description</label>
+        </div>
+
+   <div class="input-field col s12 m6">
+         <div class="file-field input-field">
+      <div class="blue btn">
+        <span><i class="material-icons">camera_alt</i></span>
+        <input type="file" multiple>
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text" placeholder="Upload one or more images - Optional">
+      </div>
+    </div>
+  </div>
+     
+    <!--Form Row End-->  
+  </div>
+
+
+<div class="row">
+<button class="btn waves-effect blue waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+</div>
+<!--Form and Button Container End-->  
+</div>
+<!--End of Textbook Space Form Tab Data--> 
+</div>
+
+
+
+   <!-- Start of Carpool Space Tab Data   -->
+<div id="carpoolSpace" class="col s12">
+
+<h4 class="center textShadow">Create a Carpool Space
+</h4>
+
+<div class="row">
+    <div class="col s12 center">
+
+   <span style="color:black">Heading to LA or SF by car? Need someone to keep you company during the long trip? Find a UCSD student who also needs a ride!</span>
+   </div>
+</div>
+
+
+<div class="container">
+<div class="row">
+    
+     <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Title your Carpool Space</label>
+  </div>
+
+  <div class="input-field col s12 m6 offset-m3 black-text">
+        <select class="icons">
+            <option value="" disabled selected>Select Destination</option>
+            <option value="">On-Campus</option>
+            <option value="">Costa Verde</option>
+            <option value="">Mira Mesa</option>
+            <option value="">La Jolla Shores</option>
+            <option value="" >Los Angeles</option>
+            <option value="" >San Francisco</option>
+            <option value="" >Other</option>
         </select>
     
   </div>
 
 
-<div class="col s12 m6">
-      <form action="#">
-        <div class="file-field input-field">
-         <div class="btn blue">
-           <span>Upload Pics</span>
-            <input type="file" multiple>
-         </div>
-              <div class="file-path-wrapper">
-                <input class="file-path validate" type="text" placeholder="Optional">
-            </div>
-        </div>
-      </form>
+   <div class="input-field col s12 m6 black-text">
+        <select class="icons">
+            <option value="" disabled selected>Select a Price</option>
+            <option value="" class=" center">Free</option>
+            <option value="" class=" center">$10</option>
+            <option value="">$20</option>
+            <option value="" >$30</option>
+            <option value="" >$40</option>
+            <option value="" >$50</option>
+            <option value="" >$60</option>
+            <option value="" >Other Price</option>
+        </select>
       </div>
 
-      <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="Public Description">
-      </div>
-
-      <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="In-Group Description">
-      </div>
-
-
-      <div class="row" style="margin-top:30px"> <div style="padding:60px" class="col s12 m12 center">
-            <button class="btn waves-effect waves-light black waves-light" type="submit" name="action">Submit
-               <i class="material-icons right">send</i>
-            </button> </div>
+ <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">In-Group Description</label>
         </div>
 
+  <div class="input-field col s12">
+          <textarea id="textarea2" class="materialize-textarea"></textarea>
+          <label for="textarea2">Public Description</label>
+        </div>
 
+   <div class="input-field col s12 m6">
+         <div class="file-field input-field">
+      <div class="blue btn">
+        <span><i class="material-icons">camera_alt</i></span>
+        <input type="file" multiple>
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text" placeholder="Upload one or more images - Optional">
+      </div>
     </div>
   </div>
+     
+    <!--Form Row End-->  
+  </div>
+
+
+<div class="row">
+<button class="btn waves-effect blue waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+</div>
+<!--Form and Button Container End-->  
+</div>
+<!--End of Carpool Space Form Tab Data--> 
 </div>
 
 
-<div id="tutorSpaceForm" class="col s12">
+
+   <!-- Start of Crew Space Tab Data   -->
+<div id="crewSpace" class="col s12">
+
+<h4 class="center textShadow">Create a Crew Space
+</h4>
+
+<div class="row">
+    <div class="col s12 center">
+
+   <span style="color:black">Create a Space for your Dance Crew. Find other UCSD students and compete with Crew Space</span>
+   </div>
+</div>
+
 
 <div class="container">
-        <div class="row">
-  
-    <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="Title">
-      </div>
+<div class="row">
+    
+     <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Title your Crew Space</label>
+  </div>
 
-       <div class="col s12 m6">
-      <form action="#">
-        <div class="file-field input-field">
-         <div class="btn blue">
-           <span>Upload Pics</span>
-            <input type="file" multiple>
-         </div>
-              <div class="file-path-wrapper">
-                <input class="file-path validate" type="text" placeholder="Optional">
-            </div>
-        </div>
-      </form>
-      </div>
-<!--Will Be Updated Once School Sends us Info of Classes-->
-      <div class="input-field col s12 m6 black-text">
-        <select class="icons">
-            <option value="" disabled selected>Select a Class</option>
-            <option value="" class="center">BIMM 100</option>
-            <option value="">CHEM 6A</option>
-            <option value="" >Other</option>
-        </select>
-      </div>
-
-      <div class="input-field col s12 m6 black-text">
-        <select class="icons">
-            <option value="" disabled selected>Select a Price</option>
-            <option value="" class="center">Free</option>
-            <option value="" class="center">$10/Hr</option>
-            <option value="">$20/Hr</option>
-            <option value="" >$30/Hr</option>
-            <option value="" >Other Price</option>
-        </select>
-      </div>
-       
-      <div class="input-field col s12 m6">
-          <input class="validate center black-text" placeholder="Location">
-      </div>
-
-    <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="Public Description">
-      </div>
-
-      <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="In-Group Description">
-      </div>
-       
-         
-
-        <div class="row" style="margin-top:30px"> <div style="padding:60px" class="col s12 m12 center">
-            <button class="btn waves-effect waves-light black waves-light" type="submit" name="action">Submit
-               <i class="material-icons right">send</i>
-            </button> </div>
-        </div>
-
-        
-      </div>
-   </div>
-</div>
-
-
-<div id="textbookSpaceForm" class="col s12">
-      <div class="container">
-        <div class="row">
-  
-    <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="Title">
-      </div>
-
-       <div class="col s12 m6">
-      <form action="#">
-        <div class="file-field input-field">
-         <div class="btn blue">
-           <span>Upload Pics</span>
-            <input type="file" multiple>
-         </div>
-              <div class="file-path-wrapper">
-                <input class="file-path validate" type="text" placeholder="Optional">
-            </div>
-        </div>
-      </form>
-      </div>
-<!--Will Be Updated Once School Sends us Info of Classes-->
-      <div class="input-field col s12 m6 black-text">
-        <select class="icons">
-            <option value="" disabled selected>Select a Class</option>
-            <option value="" class="center">BIMM 100</option>
-            <option value="">CHEM 6A</option>
-            <option value="" >Other</option>
-        </select> 
-    </div>
-
-     <div class="input-field col s12 m6 black-text">
-        <select class="icons">
-            <option value="" disabled selected>Select a Price</option>
-            <option value="" class="center">Free</option>
-            <option value="" class="center">$10</option>
-            <option value="">$20</option>
-            <option value="" >$30</option>
-            <option value="" >$40</option>
-            <option value="" >$50</option>
-            <option value="" >$60</option>
-            <option value="" >$70</option>
-            <option value="" >$80</option>
-            <option value="" >$90</option>
-            <option value="" >$100</option>
-            <option value="" >$110</option>
-            <option value="" >$120</option>
-            <option value="" >$130</option>
-            <option value="" >$140</option>
-            <option value="" >$150+</option>
-            <option value="" >Other Price</option>
-        </select>
-      </div>
-       
-      <div class="input-field col s12 m6">
-          <input class="validate center black-text" placeholder="Location">
-      </div>
-
-    <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="Public Description">
-      </div>
-
-      <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="In-Group Description">
-      </div>
-       
-         
-
-        <div class="row" style="margin-top:30px"> <div style="padding:60px" class="col s12 m12 center">
-            <button class="btn waves-effect waves-light black waves-light" type="submit" name="action">Submit
-               <i class="material-icons right">send</i>
-            </button> </div>
-        </div>
-
-        
-      </div>
-   </div>
-</div>
-
-
-<div id="carpoolSpaceForm" class="col s12">
-  
-  <div class="container">
-        <div class="row">
-  
-    <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="Title">
-      </div>
-
-       <div class="col s12 m6">
-      <form action="#">
-        <div class="file-field input-field">
-         <div class="btn blue">
-           <span>Upload Pics</span>
-            <input type="file" multiple>
-         </div>
-              <div class="file-path-wrapper">
-                <input class="file-path validate" type="text" placeholder="Optional">
-            </div>
-        </div>
-      </form>
-      </div>
-
-      <div class="input-field col s12 m6">
-          <input class="validate center black-text" placeholder="Location, for example: LA, SF, OC...etc">
-      </div>
-
-    <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="Public Description">
-      </div>
-
-      <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="In-Group Description">
-      </div>
-       
-         
-
-        <div class="row" style="margin-top:30px"> <div style="padding:60px" class="col s12 m12 center">
-            <button class="btn waves-effect waves-light black waves-light" type="submit" name="action">Submit
-               <i class="material-icons right">send</i>
-            </button> </div>
-        </div>
-
-        
-      </div>
-   </div>    
-
-</div>
-    <div id="crewSpaceForm" class="col s12">
-
-  <div class="container">
-        <div class="row">
-  
-    <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="Title">
-      </div>
-
-       <div class="col s12 m6">
-      <form action="#">
-        <div class="file-field input-field">
-         <div class="btn blue">
-           <span>Upload Pics</span>
-            <input type="file" multiple>
-         </div>
-              <div class="file-path-wrapper">
-                <input class="file-path validate" type="text" placeholder="Optional">
-            </div>
-        </div>
-      </form>
-      </div>
-
-        <div class="input-field col s12 m6 black-text">
+  <div class="input-field col s12 m6 black-text">
         <select class="icons">
             <option value="" disabled selected>Style of Dance</option>
             <option value="">Hip-Hop</option>
             <option value="">Jazz</option>
-            <option value="" >Other Genre</option>
+            <option value="" > Other Style</option>
         </select>
       </div>
 
-      <div class="input-field col s12 m6">
-          <input class="validate center black-text" placeholder="Location">
-      </div>
+       <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Style of Dance if Other</label>
+  </div>
 
-    <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="Public Description">
-      </div>
-
-      <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="In-Group Description">
-      </div>
-       
-         
-
-        <div class="row" style="margin-top:30px"> <div style="padding:60px" class="col s12 m12 center">
-            <button class="btn waves-effect waves-light black waves-light" type="submit" name="action">Submit
-               <i class="material-icons right">send</i>
-            </button> </div>
+ <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">In-Group Description</label>
         </div>
 
-
-       </div> 
-    </div> 
- </div>
-
-
-<div id="lostSpaceForm" class="col s12">
-    <div class="container">
-        <div class="row">
-  
-    <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="Title">
-      </div>
-
-       <div class="col s12 m6">
-      <form action="#">
-        <div class="file-field input-field">
-         <div class="btn blue">
-           <span>Upload Pics</span>
-            <input type="file" multiple>
-         </div>
-              <div class="file-path-wrapper black-text">
-                <input class="file-path validate" type="text" placeholder="Optional">
-            </div>
+  <div class="input-field col s12">
+          <textarea id="textarea2" class="materialize-textarea"></textarea>
+          <label for="textarea2">Public Description</label>
         </div>
-      </form>
-      </div>
 
-        <div class="input-field col s12 m6 black-text">
+   <div class="input-field col s12 m6">
+         <div class="file-field input-field">
+      <div class="blue btn">
+        <span><i class="material-icons">camera_alt</i></span>
+        <input type="file" multiple>
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text" placeholder="Upload one or more images - Optional">
+      </div>
+    </div>
+  </div>
+     
+    <!--Form Row End-->  
+  </div>
+
+
+<div class="row">
+<button class="btn waves-effect blue waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+</div>
+<!--Form and Button Container End-->  
+</div>
+<!--End of Crew Space Form Tab Data--> 
+</div>
+
+
+   <!-- Start of Lost Space Tab Data   -->
+<div id="lostSpace" class="col s12">
+
+<h4 class="center textShadow">Create a Lost Space
+</h4>
+
+<div class="row">
+    <div class="col s12 center">
+
+   <span style="color:black">Found a Lost Item? Post it to Lost Space and find the owner. Be sure to ask specific questions to those who would like to claim it.</span>
+   </div>
+</div>
+
+
+<div class="container">
+<div class="row">
+    
+<div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Title your Lost Space</label>
+  </div>
+
+ <div class="input-field col s12 m6 black-text">
         <select class="icons">
             <option value="" disabled selected>Type of Item</option>
             <option value="">Phone</option>
             <option value="">ID</option>
-            <option value="" >Wallet</option>
-            <option value="" >Other</option>
+            <option value="" > Wallet</option>
+            <option value="" > Other</option>
         </select>
-      </div>
+    </div>
 
-      <div class="input-field col s12 m6">
-          <input class="validate center black-text" placeholder="Location Item was Found">
-      </div>
+       <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Type of Item if Other</label>
+  </div>
 
-    <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="Public Description">
-      </div>
-
-      <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="In-Group Description">
-      </div>
-       
-         
-
-        <div class="row" style="margin-top:30px"> <div style="padding:60px" class="col s12 m12 center">
-            <button class="btn waves-effect waves-light black waves-light" type="submit" name="action">Submit
-               <i class="material-icons right">send</i>
-            </button> </div>
+ <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">In-Group Description</label>
         </div>
 
+  <div class="input-field col s12">
+          <textarea id="textarea2" class="materialize-textarea"></textarea>
+          <label for="textarea2">Public Description</label>
+        </div>
 
-       </div> 
-    </div> 
+   <div class="input-field col s12 m6">
+         <div class="file-field input-field">
+      <div class="blue btn">
+        <span><i class="material-icons">camera_alt</i></span>
+        <input type="file" multiple>
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text" placeholder="Upload one or more images - Optional">
+      </div>
+    </div>
+  </div>
+     
+    <!--Form Row End-->  
+  </div>
 
+
+<div class="row">
+<button class="btn waves-effect blue waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
 </div>
- 
-   
- 
-          
-        
+<!--Form and Button Container End-->  
+</div>
+<!--End of Lost Space Form Tab Data--> 
+</div>
 
 
 
