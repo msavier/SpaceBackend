@@ -192,79 +192,83 @@
 </div>
 
 
-
+<!--Study Space-->
 <div id="studySpaceForm" style="padding-top:25px">
+    <form action="webapi/create-study-space" method="POST">
+        <div class="container">
+            <div class="row">
+    
+                <!--Title-->
+                <div class="input-field col s12 m6">
+                    <input name="title" class="validate center black-text" placeholder="Title">
+                </div>
 
-    <div class="container">
-        <div class="row">
-  
-    <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="Title">
-      </div>
+                <!--Images-->
+                <div class="col s12 m6">
+                    <div class="file-field input-field">
+                        <div class="btn blue">
+                        <span>Upload Pics</span>
+                            <input name="images" type="file" multiple>
+                        </div>
+                        <div class="file-path-wrapper">
+                            <input class="file-path validate" type="text" placeholder="Optional">
+                        </div>
+                    </div>
+                </div>
 
- <div class="col s12 m6">
-      <form action="#">
-        <div class="file-field input-field">
-         <div class="btn blue">
-           <span>Upload Pics</span>
-            <input type="file" multiple>
-         </div>
-              <div class="file-path-wrapper">
-                <input class="file-path validate" type="text" placeholder="Optional">
+                <!--Course-->
+                <!--Will Be Updated Once School Sends us Info of Classes-->
+                <div class="input-field col s12 m6 black-text">
+                    <select name="course" class="icons">
+                        <option value="" disabled selected>Select a Class</option>
+                        <option value="" class="center">BIMM 100</option>
+                        <option value="">CHEM 6A</option>
+                        <option value="" >Other</option>
+                    </select>
+                </div>
+                
+                <!--Location-->
+                <div class="input-field col s12 m6">
+                    <input name="location" class="validate center black-text" placeholder="Location">
+                </div>
+
+                <!--Public Description-->
+                <div class="input-field col s12 m6">
+                    <input name="public-description" class="validate center black-text" placeholder="Public Description">
+                </div>
+
+                <!--Group Description-->
+                <div class="input-field col s12 m6">
+                    <input name="group-description" class="validate center black-text" placeholder="In-Group Description">
+                </div>    
+
+                <!---Submit-->
+                <div class="row"> <div style="padding:60px" class="col s12 m12 center">
+                    <button class="btn waves-effect waves-light black waves-light" type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                    </button> </div>
+                </div>
+        
             </div>
         </div>
-      </form>
-      </div>
-
-<!--Will Be Updated Once School Sends us Info of Classes-->
-      <div class="input-field col s12 m6 black-text">
-        <select class="icons">
-            <option value="" disabled selected>Select a Class</option>
-            <option value="" class="center">BIMM 100</option>
-            <option value="">CHEM 6A</option>
-            <option value="" >Other</option>
-        </select>
-    
-  </div>
-       
-      <div class="input-field col s12 m6">
-          <input class="validate center black-text" placeholder="Location">
-      </div>
-
-    <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="Public Description">
-      </div>
-
-      <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="In-Group Description">
-      </div>
-       
-         
-
-        <div class="row"> <div style="padding:60px" class="col s12 m12 center">
-            <button class="btn waves-effect waves-light black waves-light" type="submit" name="action">Submit
-               <i class="material-icons right">send</i>
-            </button> </div>
-        </div>
-
-
-      </div>
-   </div>
+   </form>
 </div>
 
     
 
 
-
+<!--Project Space-->
 <div id="projectSpaceForm" class="col s12" style="padding-top:25px">
     <form action="webapi/create-project-space" method="post">
         <div class="container">
             <div class="row">
 
+                <!--Title-->
                 <div class="input-field col s12 m6">
                     <input name="title" class="validate center black-text" placeholder="Title">
                 </div>
 
+                <!--Field-->
                 <div class="input-field col s12 m6 black-text">
                     <select name ="field" class="icons">
                         <option value="" disabled selected>Select a Field</option>
@@ -278,7 +282,8 @@
                         <option value="" >Other</option>
                     </select>
                 </div>
-
+                
+                <!--Images-->
                 <div class="col s12 m6">
                     <div class="file-field input-field">
                         <div class="btn blue">
@@ -292,18 +297,22 @@
                     </div>
                 </div>
 
+                <!--Location-->
                 <div class="input-field col s12 m6">
                     <input name="location" lass="validate center black-text" placeholder="Location">
                 </div>
 
+                <!--Public Description-->
                 <div class="input-field col s12 m6">
                     <input name="public-description" class="validate center black-text" placeholder="Public Description">
                 </div>
 
+                <!--Group Description-->
                 <div class="input-field col s12 m6">
                     <input name="group-description" class="validate center black-text" placeholder="In-Group Description">
                 </div>
 
+                <!--Sumbit-->
                 <div class="row" style="margin-top:30px"> <div style="padding:60px" class="col s12 m12 center">
                         <button class="btn waves-effect waves-light black waves-light" type="submit" name="action">Submit
                         <i class="material-icons right">send</i>
@@ -315,78 +324,82 @@
     </form>
 </div>
 
-
+<!--Sport Space-->
 <div id="sportSpaceForm" class="col s12" style="padding-top:25px">
-    <div class="container">
-        <div class="row">
+    <form action="webapi/create-sport-space" method="POST">
+       
+        <!--Title-->
+        <div class="container">
+            <div class="row">
+            <div class="input-field col s12 m6">
+            <input name="title" class="validate center black-text" placeholder="Title">
+        </div>
 
-        <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="Title">
-      </div>
+        <!--Sport-->
+        <div class="input-field col s12 m6 black-text">
+            <select name="sport" class="icons">
+                <option value="" disabled selected>Select a Sport</option>
+                <option value="">Basketball</option>
+                <option value="">Tennis</option>
+                <option value="">Volleyball</option>
+                <option value="">Surfing</option>
+                <option value="" >Track</option>
+                <option value="" >Soccer</option>
+                <option value="" >Baseball</option>
+                <option value="" >Football</option>
+                <option value="" >Racquetball</option>
+                <option value="" >Martial Arts</option>
+                <option value="" >Ping Pong</option>
+                <option value="" >Badminton</option>
+                <option value="" >Golf</option>
+                <option value="" >Swimming</option>
+                <option value="" >Water Polo</option>
+                <option value="" >Ultimate Frisbee</option>
+                <option value="" >Softball</option>
+                <option value="" >Weight Lifting</option>
+                <option value="" >Other</option>
+            </select>
+    </div>
 
-    <div class="input-field col s12 m6 black-text">
-        <select class="icons">
-            <option value="" disabled selected>Select a Sport</option>
-            <option value="">Basketball</option>
-            <option value="">Tennis</option>
-            <option value="">Volleyball</option>
-            <option value="">Surfing</option>
-            <option value="" >Track</option>
-            <option value="" >Soccer</option>
-            <option value="" >Baseball</option>
-            <option value="" >Football</option>
-            <option value="" >Racquetball</option>
-            <option value="" >Martial Arts</option>
-            <option value="" >Ping Pong</option>
-            <option value="" >Badminton</option>
-            <option value="" >Golf</option>
-            <option value="" >Swimming</option>
-            <option value="" >Water Polo</option>
-            <option value="" >Ultimate Frisbee</option>
-            <option value="" >Softball</option>
-            <option value="" >Weight Lifting</option>
-            <option value="" >Other</option>
-        </select>
-    
-  </div>
-
-
-<div class="col s12 m6">
-      <form action="#">
-        <div class="file-field input-field">
-         <div class="btn blue">
-           <span>Upload Pics</span>
-            <input type="file" multiple>
-         </div>
-              <div class="file-path-wrapper">
-                <input class="file-path validate" type="text" placeholder="Optional">
+    <!--Images-->
+    <div class="col s12 m6">
+            <div class="file-field input-field">
+            <div class="btn blue">
+            <span>Upload Pics</span>
+                <input name="images" type="file" multiple>
+            </div>
+                <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text" placeholder="Optional">
+                </div>
             </div>
         </div>
-      </form>
-      </div>
 
-       <div class="input-field col s12 m6">
-          <input class="validate center black-text" placeholder="Location">
-      </div>
+        <!--Location-->
+        <div class="input-field col s12 m6">
+            <input name="location" class="validate center black-text" placeholder="Location">
+        </div>
 
-      <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="Public Description">
-      </div>
+        <!--Public Description-->
+        <div class="input-field col s12 m6">
+            <input name="public-description" class="validate center black-text" placeholder="Public Description">
+        </div>
 
-      <div class="input-field col s12 m6">
-           <input class="validate center black-text" placeholder="In-Group Description">
-      </div>
-
-
-      <div class="row" style="margin-top:30px"> <div style="padding:60px" class="col s12 m12 center">
-            <button class="btn waves-effect waves-light black waves-light" type="submit" name="action">Submit
-               <i class="material-icons right">send</i>
-            </button> </div>
+        <!--Group Description-->
+        <div class="input-field col s12 m6">
+            <input name="groupclass="validate center black-text" placeholder="In-Group Description">
         </div>
 
 
+        <div class="row" style="margin-top:30px"> <div style="padding:60px" class="col s12 m12 center">
+                <button class="btn waves-effect waves-light black waves-light" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+                </button> </div>
+            </div>
+
+
+        </div>
     </div>
-  </div>
+  </form>
 </div>
 
 
