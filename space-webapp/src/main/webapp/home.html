@@ -18,25 +18,23 @@
     
 <body>
   
-     <!-- Blue Nav Bar   -->
+     
+  <!-- Nav Bar   -->
     
-<nav class="blue-grey darken-4 navigation z-depth-3">
+<nav class="blue-grey lighten-5 navigation z-depth-0" style="height:100px">
   <div class="nav-wrapper">
    <ul id="nav-mobile" class="right">
 
+<!-- Menu Button -->  
+ <li class="right"><a href="#" data-activates="slide-out" class="button-collapse show-on-large blue-grey lighten-5" style="border-radius:1000px"><i class=" blue-grey-text material-icons">more_horiz</i></a></li>
 
 
- <!-- Logout Button  -->  
-   <li class="right"><a href="#!" class="amber-text  tooltipped" data-position="bottom"data-delay="50" data-tooltip="Logout"><i class="material-icons">exit_to_app</i></a></li>
-
-<!-- Create Page Info Modal Trigger --> 
-    <li class="right"><a href="#homeInfo" class="amber-text  tooltipped modal-trigger waves-effect waves-light" data-position="bottom"data-delay="50" data-tooltip="Info"><i class="material-icons">info_outline</i></a></li>
 
 <!-- Create Page Info Modal -->
-  <div id="homeInfo" class="modal modal-fixed-footer">
+  <div id="welcomeInfo" class="modal modal-fixed-footer">
     <div class="modal-content black-text">
-      <h5>Your Spaces</h5>
-      <p>On this page you can view all the Spaces you're in. Each Space can be equipped with a Google Drive link for your group. You can contact your group members through Google Hangouts. For Study Spaces you can reserve a room. You can also link an interactive mindmap to your group via Coggle. There is also a Quizlet link to help you study together.</p>
+      <h5>Welcome to Student Space!</h5>
+      <p>Hint: Select the rocket in the bottom right.</p>
     </div>
     <div class="modal-footer">
       <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Ok!</a>
@@ -45,50 +43,78 @@
 
       </ul>
  <!-- Space Logo  -->  
-      <a href="home.html" class="brand-logo center white-text"><img height="100" width="100" src="font/material-design-icons/Paddedlogo.png"></a>
+      <a href="home.html" class="brand-logo center"><span><span style="color:#78909c; font-family:Righteous; font-size:.5em">Student</span><span style="color:#78909c; font-family:Righteous; font-size:1em">Space</h4></span></a>
 
 
   
-    <ul id="slide-out" class="side-nav white">
+    <ul id="slide-out" class="side-nav blue-grey darken-3">
            
     <!-- SideNav Buttons   -->
-  <div class="spacer"></div>  
+  <div style="height:2em"></div> 
 
- <a href="home.html" class="center" style="height:100px"><img height="100" width="100" src="font/material-design-icons/rocket.png"></a>
+             <div id="orbit-system">
+          <div class="system">
 
-  <div class="spacer"></div>  
- <div class="spacer"></div> 
+              <div class="satellite-orbit1">
+                  <div class="satellite1"></div>
+              </div>
 
-<a href="Profile.html" class="waves-effect blue white-text  waves-light btn"><i class="white-text material-icons left"><i class="material-icons">person_pin</i></i>Your Profile</a>
-    
+               <div class="satellite-orbit2">
+                  <div class="satellite2"></div>
+              </div>
 
-      <div class="spacer"></div>  
-        
-  
-<a href="home.html" class="waves-effect black white-text  waves-light btn"><i class="white-text material-icons left"><i class="material-icons">home</i></i>Your Spaces</a>
-    
+              <div class="satellite-orbit3">
+                  <div class="satellite3"></div>
+              </div>
+               <div class="satellite-orbit4">
+                  <div class="satellite4"></div>
+              </div>
+               <div class="satellite-orbit5">
+                  <div class="satellite5"></div>
+              </div>
 
-      <div class="spacer"></div>     
+              <div class="planet"></div>
+
+        </div>
+    </div>
             
-<a href="Create.html" class="waves-effect red white-text  waves-light btn"><i class="white-text material-icons left"><i class="material-icons">add_circle_outline</i></i>Create Space</a>
+ 
+
+<a style="font-size:1.5em; margin-top:-1.5em" href="Profile.html" class="waves-effect blue-grey darken-4 white-text waves-light"><i class="white-text material-icons left"><i class="material-icons">person_pin</i></i><strong>Profile</strong></a>
+    
+<div class="spacer"></div>
+      
+  
+<a style="font-size:1.5em; width:100%" href="home.html" class="waves-effect blue-grey darken-4 white-text  waves-light"><i class="white-text material-icons left"><i class="material-icons">home</i></i><strong>Home</strong></a>
+    
+<div class="spacer"></div>
+   
+            
+<a style="font-size:1.5em; width:100%" href="Create.html" class="waves-effect blue-grey darken-4 white-text  waves-light"><i class="white-text material-icons left"><i class="material-icons">add_circle_outline</i></i><strong>Create</strong></a>
+    
+<div class="spacer"></div>
     
 
-      <div class="spacer"></div>
+<a style="font-size:1.5em; width:100%" href="Join.html" class="waves-effect blue-grey darken-4 white-text waves-light"><i class="white-text material-icons left"><i class="material-icons">group_add</i></i><strong>Join</strong></a>
 
-<a href="Join.html" class="waves-effect green white-text waves-light btn"><i class="white-text material-icons left"><i class="material-icons">group_add</i></i>Join Space</a>
+<div class="spacer"></div>
 
-      <div class="spacer"></div>
-
-<a href="Settings.html" class="waves-effect waves-light amber white-text btn" data-position="bottom" data-delay="50" data-tooltip="Settings"><i class="material-icons left white-text">settings</i>Settings</a>
+<a style="font-size:1.5em; width:100%" href="Settings.html" class="waves-effect waves-light blue-grey darken-4 white-text" data-position="bottom" data-delay="50" data-tooltip="Settings"><i class="material-icons left white-text">settings</i><strong>Settings</strong></a>
   
 
     </ul>
 
+<ul>
+<!-- Logout Button  -->  
+   <li><a href="#!" class=" blue-grey-text  tooltipped" data-position="bottom"data-delay="50" data-tooltip="Logout"><i class="material-icons">exit_to_app</i></a></li>
 
-    <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="mdi-navigation-menu"></i></a>
+<!-- Create Page Info Modal Trigger --> 
+    <li><a href="#welcomeInfo" class=" blue-grey-text tooltipped modal-trigger waves-effect waves-light" data-position="bottom"data-delay="50" data-tooltip="Info"><i class="material-icons">info_outline</i></a></li>
+</ul>
+   
 </nav>
-
- <!-- End of Blue Nav Bar   -->
+ <div class="sexy_line"></div>
+ <!-- End of Nav Bar   -->
 
  <!-- Your    -->
 
@@ -107,6 +133,7 @@
     </div>
 
            <div class="card-content">
+           <a href="spaceExpanded.html"><i class="material-icons blue-grey-text right" style="font-size:3em">all_out</i></a>
       <span class="card-title activator grey-text text-darken-4 center" style="padding:150px"><h2>Title 1</h2><i class="material-icons right">more_vert</i></span>
 
       <p class="black-text" style="font-size: 16px; cursor:default">

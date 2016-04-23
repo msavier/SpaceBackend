@@ -1012,11 +1012,11 @@
 }
 
 .teal.lighten-1 {
-  background-color: #26a69a !important;
+  background-color: #1e88e5 !important;
 }
 
 .teal-text.text-lighten-1 {
-  color: #26a69a !important;
+  color: #1e88e5 !important;
 }
 
 .teal {
@@ -3103,7 +3103,7 @@ td, th {
 }
 
 .collection .collection-item.active {
-  background-color: #26a69a;
+  background-color: #1e88e5;
   color: #eafaf9;
 }
 
@@ -3114,7 +3114,7 @@ td, th {
 .collection a.collection-item {
   display: block;
   transition: .25s;
-  color: #26a69a;
+  color: #1e88e5;
 }
 
 .collection a.collection-item:not(.active):hover {
@@ -3137,7 +3137,7 @@ td, th {
 
 .secondary-content {
   float: right;
-  color: #26a69a;
+  color: #1e88e5;
 }
 
 .collapsible .collection {
@@ -3161,7 +3161,7 @@ span.badge.new {
   font-weight: 300;
   font-size: 0.8rem;
   color: #fff;
-  background-color: #26a69a;
+  background-color: #1e88e5;
   border-radius: 2px;
 }
 
@@ -3207,12 +3207,12 @@ nav ul a span.badge {
   top: 0;
   left: 0;
   bottom: 0;
-  background-color: #26a69a;
+  background-color: #1e88e5;
   transition: width .3s linear;
 }
 
 .progress .indeterminate {
-  background-color: #26a69a;
+  background-color: #1e88e5;
 }
 
 .progress .indeterminate:before {
@@ -7968,8 +7968,8 @@ small {
   position: relative;
   overflow-x: auto;
   overflow-y: hidden;
-  height: 48px;
-  background-color: white;
+  height: 50px;
+  background-color: #eceff1;
   margin: 0 auto;
   width: 100%;
   white-space: nowrap;
@@ -7993,9 +7993,11 @@ small {
   letter-spacing: .8px;
   width: 15%;
   min-width: 80px;
+  background-color: #eceff1;
 }
 
 .tabs .tab a {
+  font-size: 9px;
   color: black;
   display: block;
   width: 100%;
@@ -8017,7 +8019,7 @@ small {
 .tabs .indicator {
   position: absolute;
   bottom: 0;
-  height: 2px;
+  height: 4px;
   background-color: black;
   will-change: left, right;
 }
@@ -8093,7 +8095,7 @@ small {
 .btn, .btn-large {
   text-decoration: none;
   color: #fff;
-  background-color: #26a69a;
+  background-color: #1e88e5;
   text-align: center;
   letter-spacing: .5px;
   transition: .2s ease-out;
@@ -8114,7 +8116,7 @@ small {
   height: 37px;
   line-height: 37px;
   padding: 0;
-  background-color: #26a69a;
+  background-color: #1e88e5;
   border-radius: 50%;
   transition: .3s;
   cursor: pointer;
@@ -8131,7 +8133,7 @@ small {
 }
 
 .btn-floating:hover {
-  background-color: #26a69a;
+  background-color: #1e88e5;
 }
 
 .btn-floating:before {
@@ -8267,7 +8269,7 @@ button.btn-floating {
 
 .dropdown-content li > a, .dropdown-content li > span {
   font-size: 16px;
-  color: #26a69a;
+  color: #1e88e5;
   display: block;
   line-height: 22px;
   padding: 14px 16px;
@@ -8501,15 +8503,16 @@ a.waves-effect .waves-ripple {
 .collapsible-header {
   display: block;
   cursor: pointer;
-  min-height: 3rem;
+  min-height: 33%;
+  max-width: 33%
   line-height: 3rem;
-  padding: 0 1rem;
+  padding: 10px;
   background-color: #fff;
   border-bottom: 1px solid #ddd;
 }
 
 .collapsible-header i {
-  width: 2rem;
+  width: 33%;
   font-size: 1.6rem;
   line-height: 3rem;
   display: block;
@@ -8668,21 +8671,21 @@ label {
    Text Inputs + Textarea
 ****************************/
 ::-webkit-input-placeholder {
-  color: #d1d1d1;
+  color: #78909c;
 }
 
 :-moz-placeholder {
   /* Firefox 18- */
-  color: #d1d1d1;
+  color: #78909c;
 }
 
 ::-moz-placeholder {
   /* Firefox 19+ */
-  color: #d1d1d1;
+  color: #78909c;
 }
 
 :-ms-input-placeholder {
-  color: #d1d1d1;
+  color: #78909c;
 }
 
 input:not([type]),
@@ -8739,7 +8742,7 @@ textarea.materialize-textarea[readonly="readonly"] {
   border-bottom: 1px dotted rgba(0, 0, 0, 0.26);
 }
 
-input:not([type]):disabled + label, input:not([type])[readonly="readonly"] + label,
+input:not([type]):disabled + , input:not([type])[readonly="readonly"] + ,
 input[type=text]:disabled + label,
 input[type=text][readonly="readonly"] + label,
 input[type=password]:disabled + label,
@@ -8793,7 +8796,7 @@ input[type=tel]:focus:not([readonly]) + label,
 input[type=number]:focus:not([readonly]) + label,
 input[type=search]:focus:not([readonly]) + label,
 textarea.materialize-textarea:focus:not([readonly]) + label {
-  color: #26a69a;
+  color: #0288d1;
 }
 
 input:not([type]).valid, input:not([type]):focus.valid,
@@ -8931,6 +8934,7 @@ textarea.materialize-textarea + label:after {
 .input-field {
   position: relative;
   margin-top: 1rem;
+  color:black;
 }
 
 .input-field label {
@@ -8957,7 +8961,7 @@ textarea.materialize-textarea + label:after {
 }
 
 .input-field .prefix.active {
-  color: #039be5;
+  color: blue;
 }
 
 .input-field .prefix ~ input,
@@ -9000,13 +9004,13 @@ textarea.materialize-textarea + label:after {
   background-color: #fff;
   border: 0;
   box-shadow: none;
-  color: #039be5;
+  color: blue;
 }
 
 .input-field input[type=search]:focus + label i,
 .input-field input[type=search]:focus ~ .mdi-navigation-close,
 .input-field input[type=search]:focus ~ .material-icons {
-  color: #444;
+  color: blue;
 }
 
 .input-field input[type=search] + label {
@@ -9112,8 +9116,8 @@ textarea.materialize-textarea {
 
 [type="radio"]:checked + label:after {
   border-radius: 50%;
-  border: 2px solid #26a69a;
-  background-color: #26a69a;
+  border: 2px solid #1e88e5;
+  background-color: #1e88e5;
   z-index: 0;
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
@@ -9122,13 +9126,13 @@ textarea.materialize-textarea {
 /* Radio With gap */
 [type="radio"].with-gap:checked + label:before {
   border-radius: 50%;
-  border: 2px solid #26a69a;
+  border: 2px solid #1e88e5;
 }
 
 [type="radio"].with-gap:checked + label:after {
   border-radius: 50%;
-  border: 2px solid #26a69a;
-  background-color: #26a69a;
+  border: 2px solid #1e88e5;
+  background-color: #1e88e5;
   z-index: 0;
   -webkit-transform: scale(0.5);
           transform: scale(0.5);
@@ -9233,8 +9237,8 @@ form p:last-child {
   height: 22px;
   border-top: 2px solid transparent;
   border-left: 2px solid transparent;
-  border-right: 2px solid #26a69a;
-  border-bottom: 2px solid #26a69a;
+  border-right: 2px solid #1e88e5;
+  border-bottom: 2px solid #1e88e5;
   -webkit-transform: rotate(40deg);
           transform: rotate(40deg);
   -webkit-backface-visibility: hidden;
@@ -9256,7 +9260,7 @@ form p:last-child {
   height: 22px;
   border-top: none;
   border-left: none;
-  border-right: 2px solid #26a69a;
+  border-right: 2px solid #1e88e5;
   border-bottom: none;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
@@ -9325,8 +9329,8 @@ form p:last-child {
   top: 0px;
   width: 20px;
   height: 20px;
-  border: 2px solid #26a69a;
-  background-color: #26a69a;
+  border: 2px solid #1e88e5;
+  background-color: #1e88e5;
   z-index: 0;
 }
 
@@ -9375,7 +9379,7 @@ form p:last-child {
 }
 
 .switch label input[type=checkbox]:checked + .lever:after {
-  background-color: #26a69a;
+  background-color: #1e88e5;
 }
 
 .switch label .lever {
@@ -9598,7 +9602,7 @@ input[type=range] + .thumb {
   height: 0;
   width: 0;
   border-radius: 50%;
-  background-color: #26a69a;
+  background-color: #1e88e5;
   top: 10px;
   margin-left: -6px;
   -webkit-transform-origin: 50% 50%;
@@ -9611,7 +9615,7 @@ input[type=range] + .thumb .value {
   display: block;
   width: 30px;
   text-align: center;
-  color: #26a69a;
+  color: #1e88e5;
   font-size: 0;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
@@ -9648,7 +9652,7 @@ input[type=range]::-webkit-slider-thumb {
   height: 14px;
   width: 14px;
   border-radius: 50%;
-  background-color: #26a69a;
+  background-color: #1e88e5;
   -webkit-transform-origin: 50% 50%;
           transform-origin: 50% 50%;
   margin: -5px 0 0 0;
@@ -9676,7 +9680,7 @@ input[type=range]::-moz-range-thumb {
   height: 14px;
   width: 14px;
   border-radius: 50%;
-  background: #26a69a;
+  background: #1e88e5;
   margin-top: -5px;
 }
 
@@ -9714,7 +9718,7 @@ input[type=range]::-ms-thumb {
   height: 14px;
   width: 14px;
   border-radius: 50%;
-  background: #26a69a;
+  background: #1e88e5;
 }
 
 input[type=range]:focus::-ms-fill-lower {
@@ -9937,7 +9941,7 @@ select {
   width: 100%;
   height: 100%;
   opacity: 0;
-  border-color: #26a69a;
+  border-color: #1e88e5;
 }
 
 .spinner-blue,
@@ -10996,7 +11000,7 @@ select {
 
 .picker__date-display {
   text-align: center;
-  background-color: #26a69a;
+  background-color: #1e88e5;
   color: #fff;
   padding-bottom: 15px;
   font-weight: 300;
@@ -11059,7 +11063,7 @@ select {
 }
 
 .picker__day.picker__day--today {
-  color: #26a69a;
+  color: #1e88e5;
 }
 
 .picker__day.picker__day--today.picker__day--selected {
@@ -11076,7 +11080,7 @@ select {
   border-radius: 50%;
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
-  background-color: #26a69a;
+  background-color: #1e88e5;
   color: #ffffff;
 }
 
@@ -11094,7 +11098,7 @@ select {
 .picker__close, .picker__today {
   font-size: 1.1rem;
   padding: 0 1rem;
-  color: #26a69a;
+  color: #1e88e5;
 }
 
 .picker__nav--prev:before,
