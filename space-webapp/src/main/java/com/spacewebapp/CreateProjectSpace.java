@@ -28,6 +28,8 @@ public class CreateProjectSpace {
     public Response createProjectSpace(@FormParam("title") String title,
 		   			@FormParam("field") String field,
                     @FormParam("images") List<String> images,
+                    @FormParam("type") String type,
+                    @FormParam("other-type") String otherType,
 					@FormParam("location") String location,
 					@FormParam("public-description") String publicDescription,
 				       @FormParam("group-description") String groupDescription)	{
