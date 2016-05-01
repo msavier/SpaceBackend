@@ -1176,12 +1176,7 @@ $(document).ready(function(){
       });
 
     };
-}
-
-
-
-
-( jQuery ));;(function ($) {
+}( jQuery ));;(function ($) {
 
   var methods = {
     init : function() {
@@ -1305,8 +1300,6 @@ $(document).ready(function(){
       $.error( 'Method ' +  methodOrOptions + ' does not exist on jQuery.tooltip' );
     }
   };
-
-
 
   $(document).ready(function(){
     $('ul.tabs').tabs();

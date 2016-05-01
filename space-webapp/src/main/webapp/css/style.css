@@ -20,6 +20,14 @@ body{
     background: -webkit-gradient(linear, 0 0, 100% 0, from(#eceff1), to(#eceff1), color-stop(50%, #546e7a));
 }
 
+.sexy_line2 { 
+    margin-top: -30px;
+    height: 1px;
+    border: 0;
+    background: #546e7a;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#546e7a), to(#546e7a), color-stop(50%, white));
+}
+
 .navButton {
 
 }
@@ -32,8 +40,8 @@ body{
 
 .textShadow {
 font-weight: bold;
-font-family: Righteous;
-padding:10px;
+font-family: Righteous, Verdana;
+padding-bottom:10px;
 color: #78909c;
 text-shadow: rgb(224, 224, 224) 1px 1px 0px;
  -moz-user-select: -moz-none;
@@ -41,6 +49,7 @@ text-shadow: rgb(224, 224, 224) 1px 1px 0px;
    -webkit-user-select: none;
 cursor:default;
   }
+
 
 
 
@@ -82,7 +91,7 @@ cursor:default;
 }
 
 .spacer {
-  
+  height:10px;
 }
 
 .spaceCircleWrapper {
@@ -564,38 +573,48 @@ The rotateX/Y reversal is easy since it's not animated, so just use its opposite
   transform: translateY(-280px);
 }
 
+.buttonRow {
+  position:relative;
+ display:block;
+transform: translate(0, 130%)
 
+
+}
 
 /**/
 
-.headerSpace{
-background: url(http://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/purple-nebula.jpg);
-padding-top:50px;
-padding-bottom:20px;
-
-}
-.people{
-  padding:15px;
-}
-
-.peopleImg {
-    border-radius:50%;
+#orbit-systemUser {
+  padding-top:300px;
+  position: relative;
+  margin:0 auto;
+  width: 7em;
+  height: 5em;
+  transform: translate(0, 180%)
+    -ms-transform: scale(0.6,0.6); /* IE 9 */
+    -webkit-transform: scale(0.6,0.6); /* Safari */
+    transform: scale(0.6,0.6);
 }
 
-.textShadowTitle {
-font-weight: bold;
-font-family: Righteous;
-padding:10px;
-color: white;
-letter-spacing: 4px;
-text-shadow: rgb(224, 224, 224) 1px 1px 0px;
- -moz-user-select: -moz-none;
-   -khtml-user-select: none;
-   -webkit-user-select: none;
-cursor:default;
-  }
+.systemUser {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: rotateX(75deg) rotateY(-30deg);
+  transform: rotateX(75deg) rotateY(-30deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
 
-  .planet {
+.planetUser, .satellite-orbit1User, .satellite1User, .satellite-orbit2User, .satellite2User, .satellite-orbit3User, .satellite3User, .satellite-orbit4User, .satellite4User, .satellite-orbit5User, .satellite5User {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.planetUser {
   width: 9em;
   height: 9em;
   margin-top: -4.5em;
@@ -614,13 +633,13 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   transform: rotateY(30deg) rotateX(-75deg);
 }
 
-.satellite-orbit1 {
+.satellite-orbit1User {
   width: 16em;
   height: 16em;
   margin-top: -8em;
   margin-left: -8em;
   
-  border: 5px solid white;
+  border: 5px solid #18ffff;
   border-radius: 50%;
   
   -webkit-animation-name: orbit;
@@ -633,7 +652,7 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   animation-timing-function: linear;
 }
 
-.satellite1 {
+.satellite1User {
   top: 100%;
   width: 3em;
   height: 3em;
@@ -641,7 +660,7 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   margin-left: -1.5em;
   
   color: black;
-  background-color: white; /*standard blue*/
+  background-color: black; /*standard blue*/
   border-radius: 50%;
   text-align: center;
   line-height: 3em;
@@ -656,13 +675,13 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   animation-timing-function: linear;
 }
 
-.satellite-orbit2 {
+.satellite-orbit2User {
   width: 16em;
   height: 16em;
   margin-top: -8em;
   margin-left: -8em;
   
-  border: 3px solid white;
+  border: 3px solid #18ffff;
   opacity:1;
   border-radius: 50%;
   
@@ -676,7 +695,7 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   animation-timing-function: linear;
 }
 
-.satellite2 {
+.satellite2User {
   top: 100%;
   width: 3em;
   height: 3em;
@@ -684,7 +703,7 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   margin-left: -1.5em;
   
   color: black;
-  background-color: white; /*standard green*/
+  background-color: black; /*standard green*/
   border-radius: 50%;
   text-align: center;
   line-height: 3em;
@@ -699,13 +718,13 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   animation-timing-function: linear;
 }
 
-.satellite-orbit3 {
+.satellite-orbit3User {
   width: 16em;
   height: 16em;
   margin-top: -8em;
   margin-left: -8em;
   
-  border: 3px solid white;
+  border: 3px solid #18ffff;
   opacity:1;
   border-radius: 50%;
   
@@ -719,7 +738,7 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   animation-timing-function: linear;
 }
 
-.satellite3 {
+.satellite3User {
   top: 100%;
   width: 3em;
   height: 3em;
@@ -727,7 +746,7 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   margin-left: -1.5em;
   
   color: black;
-  background-color: white; /*standard yellow*/
+  background-color: black; /*standard yellow*/
   border-radius: 50%;
   text-align: center;
   line-height: 3em;
@@ -742,13 +761,13 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   animation-timing-function: linear;
 }
 
-.satellite-orbit4 {
+.satellite-orbit4User {
   width: 16em;
   height: 16em;
   margin-top: -8em;
   margin-left: -8em;
   
-  border: 3px solid white;
+  border: 3px solid #18ffff;
   border-radius: 50%;
   
   -webkit-animation-name: orbit;
@@ -761,7 +780,7 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   animation-timing-function: linear;
 }
 
-.satellite4 {
+.satellite4User {
   top: 100%;
   width: 3em;
   height: 3em;
@@ -769,7 +788,7 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   margin-left: -1.5em;
   
   color: black;
-  background-color: white; /*standard red*/
+  background-color: black; /*standard red*/
   border-radius: 50%;
   text-align: center;
   line-height: 3em;
@@ -784,13 +803,13 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   animation-timing-function: linear;
 }
 
-.satellite-orbit5 {
+.satellite-orbit5User {
   width: 16em;
   height: 16em;
   margin-top: -8em;
   margin-left: -8em;
   
-  border: 3px solid white;
+  border: 3px solid #18ffff;
   border-radius: 50%;
   opacity:1;
   
@@ -804,7 +823,7 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   animation-timing-function: linear;
 }
 
-.satellite5 {
+.satellite5User {
   top: 100%;
   width: 3em;
   height: 3em;
@@ -812,7 +831,7 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   margin-left: -1.5em;
   
   color: black;
-  background-color: white; /*standard purple*/
+  background-color: black; /*standard purple*/
   border-radius: 50%;
   text-align: center;
   line-height: 3em;
@@ -870,6 +889,41 @@ The rotateX/Y reversal is easy since it's not animated, so just use its opposite
         transform: rotateZ(0deg) rotateY(30deg) rotateX(-75deg);
     }
 }
+
+.headerSpace{
+ background: #eceff1; /* For browsers that do not support gradients */    
+  height:900px;
+width:100%;
+padding-top:20px;
+padding-bottom:20px;
+
+}
+
+
+.peopleImg {
+    border-radius:50%;
+    width:80px;
+    height:80px;
+}
+
+
+.textShadowTitle {
+font-weight: bold;
+font-family: Righteous, Verdana;
+padding:10px;
+color: white;
+letter-spacing: 4px;
+text-shadow: rgb(224, 224, 224) 1px 1px 0px;
+ -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+cursor:default;
+  }
+
+
+
+
+
 
 
 
