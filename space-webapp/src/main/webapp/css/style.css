@@ -12,121 +12,6 @@ body{
     color:white;
 }
 
-#customBtn {
-      display: inline-block;
-      background: white;
-      color: #444;
-      width: 190px;
-      height: 40px
-      border-radius: 5px;
-      border: thin solid #888;
-      box-shadow: 1px 1px 1px grey;
-      white-space: nowrap;
-    }
-    #customBtn:hover {
-      cursor: pointer;
-    }
-    span.label {
-      font-family: serif;
-      font-weight: normal;
-    }
-    span.icon {
-      background: url('/identity/sign-in/g-normal.png') transparent 5px 50% no-repeat;
-      display: inline-block;
-      vertical-align: middle;
-      width: 42px;
-      height: 42px;
-    }
-    span.buttonText {
-      display: inline-block;
-      vertical-align: middle;
-      padding-left: 42px;
-      padding-right: 42px;
-      font-size: 52px;
-      font-weight: bold;
-      /* Use the Roboto font that is loaded in the <head> */
-      font-family: 'Roboto', sans-serif;
-    }
-
-
-.container {
-  transform:scale(.15,.15);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin-top: -69%;
-  margin-left:-20%;
-  z-index:2;
-width:100px;
-}
-
-.planet2 {
-  background:white;
-  box-shadow: inset -30px -30px 0px #cfd8dc;
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
-}
-
-.planet2:before {
-  content: '';
-  background: white;
-  border-radius: 100%;
-  width: 20px;
-  height: 20px;
-  display: block;
-  margin: 50px 100px;
-}
-
-.planet2:after {
-  content: '';
-  background: white;
-  border-radius: 100%;
-  height: 20px;
-  width: 60px;
-  left: 0px;
-  top: 50px;
-  display: block;
-  margin: -20px 40px;
-  border-radius: 40px;
-  animation: rotateElement linear 15s infinite;
-}
-
-
-.orbit {
-  width: 300px;
-  height: 300px;
-  border: 10px solid silver;
-  position: absolute;
-  border-radius: 100%;
-  margin: -50px -250px;
-  -webkit-animation: orbit 12.81216s linear infinite;
-          animation: orbit 12.81216s linear infinite;
-}
-
-.moon {
-  background: grey;
-  width: 60px;
-  height: 60px;
-  border-radius: 100%;
-  margin: 10px;
-}
-
-
-
-@keyframes orbit {
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-
 .sexy_line { 
     margin-top: -30px;
     height: 1px;
@@ -410,7 +295,7 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   margin-left: -1.5em;
   
   color: black;
-  background-color: #039be5; /*standard blue*/
+  background-color: white; /*standard blue*/
   border-radius: 50%;
   text-align: center;
   line-height: 3em;
@@ -453,7 +338,7 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   margin-left: -1.5em;
   
   color: black;
-  background-color: #00e676; /*standard green*/
+  background-color: white; /*standard green*/
   border-radius: 50%;
   text-align: center;
   line-height: 3em;
@@ -496,7 +381,7 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   margin-left: -1.5em;
   
   color: black;
-  background-color: #ffc107; /*standard yellow*/
+  background-color: white; /*standard yellow*/
   border-radius: 50%;
   text-align: center;
   line-height: 3em;
@@ -538,7 +423,7 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   margin-left: -1.5em;
   
   color: black;
-  background-color: #e53935; /*standard red*/
+  background-color: white; /*standard red*/
   border-radius: 50%;
   text-align: center;
   line-height: 3em;
