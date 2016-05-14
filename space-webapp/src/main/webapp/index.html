@@ -43,19 +43,20 @@
         //scope: 'additional_scope'
       });
       attachSignin(document.getElementById('customBtn'));
-      if(googleUser.isSignedIn()){
-         location.href = "login.html"
-      }
-     
     });
   };
 
+  
   function attachSignin(element) {
     console.log(element.id);
     auth2.attachClickHandler(element, {},
         function(googleUser) {
+    	  // TBD: grab other relevant google data
           document.getElementById('name').innerText = "Signed in: " +
               googleUser.getBasicProfile().getName();
+          if(googleUser.isSignedIn()){
+        	  location.href = "login.html"
+          }
         }, function(error) {
           alert(JSON.stringify(error, undefined, 2));
         });
@@ -139,7 +140,7 @@
 <br>
 <br>
 <br>
- <button type="button" id="customBtn"class="btn btn-default btn-lg btn3d"><span style="font-family:Roboto"><img src="font/material-design-icons/googleLogo.png" height="35px" width="35px" style="padding-right:10px; padding-bottom:10px; margin-top:5px"></span>Google Sign-In</button>
+ <button type="button"id="customBtn"class="btn btn-default btn-lg btn3d"><span style="font-family:Roboto"><img src="font/material-design-icons/googleLogo.png" height="35px" width="35px" style="padding-right:10px; padding-bottom:10px; margin-top:5px"></span>Google Sign-In</button>
 
 
   <div id="name"></div>
@@ -177,5 +178,6 @@
  
   <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-
+    
+	
 </html>
