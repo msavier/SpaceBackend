@@ -3,6 +3,14 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+ 
+ <meta name="google-signin-client_id" content="261275448934-lr9a73fcmfvm8ha6dur37vg74g9megb8.apps.googleusercontent.com">
+
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+  
+
+
   <title>Terms of Service</title>
 
   <link rel="icon" 
@@ -35,20 +43,20 @@
         <br>
         <h5 class="header col s12 light">Information Student Uploads</h5>
         <ul class="black-text">
-          <li>Major</li>
+          <li>Your Field of Study/Major</li>
           <li>Current Year, e.g. First Year, Second Year, etc...</li>
-           <li>Select your Class and Teacher</li>
+           <li>Your current enrolled Classes and Teachers</li>
         </ul>
         <br>
         <h5 class="header col s12 light">Privacy</h5>
         <p>You the student, are required to accept Student Space's Terms of Service to access and use the Student Space application. Acceptance of the Terms of Service permits Student Space to import your name, email address, and class schedule for use in the Student Space application. The student at any time has full control of his/her private information (name, email address, and class schedule) and may opt out of the Student Space Terms of Service at any time.</p>
         <br>
         <h5 class="header col s12 light">How We Use Your Information</h5>
-        <p>We use the name, email address, and class schedule data to help students connect and contact each other.</p>
+        <p>We use your name, email address, and class schedule data to help you connect with your fellow colleagues who are also on the Student Space network.</p>
         <br>
         <h5 class="header col s12 light">Safety and Compliance</h5>
         <p>We do our best to keep Student Space safe, but we cannot guarantee it. We need your help to keep Student Space safe, which includes the following commitments by you:</p>
-        <ul class="left">
+        <ul style="text-align:left">
 1) You will not post unauthorized commercial communications (such as spam) on Student Space.<br><br>
 2) You will not collect users' content or information, or otherwise access Student Space, using automated means (such as harvesting bots, robots, spiders, or scrapers).<br><br>
 3) You will not engage in unlawful multi-level marketing, such as a pyramid scheme, on Student Space.<br><br>
@@ -64,9 +72,33 @@
         </ul>
       </div>
       <div class="row center">
-        <a href="login.html" id="download-button" class="btn-large waves-effect waves-light blue">I Agree</a>
-         <a href="" class="btn-large waves-effect waves-light red">I Decline</a>
+        <a href="#agree" id="download-button" class="btn-large waves-effect waves-light blue modal-trigger">I Agree</a>
+         <a href="#decline" class="btn-large waves-effect waves-light red modal-trigger">I Decline</a>
       </div>
+
+      <div id="decline" class="modal modal-fixed-footer">
+    <div class="modal-content black-text">
+      <h5 class="center">You have declined the Student Space Terms of Service!</h5>
+      <p class="center">You must agree to the Terms of Service to access Student Space.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Ok!</a>
+    </div>
+  </div>
+
+  <div id="agree" class="modal modal-fixed-footer">
+    <div class="modal-content black-text">
+      <h5 class="center">Great, now login using your UCSD email address when you use Google login. The password will be the same as that of your SSO account.</h5>
+      <p class="center">UCSD has recently linked your UCSD email address to work with Google login. If you do not use your UCSD email address for Google login authentication your Student Space account will be terminated.</p>
+
+      <!-- In the callback, you would hide the gSignInWrapper element on a
+  successful sign in -->
+  <div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+
+    </div>
+    
+  </div>
       <br><br>
 
     </div>

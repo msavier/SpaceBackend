@@ -7989,8 +7989,8 @@ small {
   text-overflow: ellipsis;
   overflow: hidden;
   letter-spacing: .8px;
-  width: 50px;
-  min-width: 50px;
+  width: 7em;
+  min-width: 7em;
   background-color: transparent;
 }
 
