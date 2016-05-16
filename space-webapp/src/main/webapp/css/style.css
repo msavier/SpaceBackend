@@ -295,7 +295,7 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   margin-left: -1.5em;
   
   color: black;
-  background-color: white; /*standard blue*/
+  background-color: #1e88e5; /*standard blue*/
   border-radius: 50%;
   text-align: center;
   line-height: 3em;
@@ -338,7 +338,7 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   margin-left: -1.5em;
   
   color: black;
-  background-color: white; /*standard green*/
+  background-color: #00e676; /*standard green*/
   border-radius: 50%;
   text-align: center;
   line-height: 3em;
@@ -381,7 +381,7 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   margin-left: -1.5em;
   
   color: black;
-  background-color: white; /*standard yellow*/
+  background-color: #ffb300; /*standard yellow*/
   border-radius: 50%;
   text-align: center;
   line-height: 3em;
@@ -423,7 +423,7 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   margin-left: -1.5em;
   
   color: black;
-  background-color: white; /*standard red*/
+  background-color: #e53935 ; /*standard red*/
   border-radius: 50%;
   text-align: center;
   line-height: 3em;
