@@ -28,7 +28,9 @@ body{
     background: -webkit-gradient(linear, 0 0, 100% 0, from(#546e7a), to(#546e7a), color-stop(50%, white));
 }
 
-.navButton {
+/*Nav Buttons*/
+
+#profileNav{
 
 }
 
@@ -165,11 +167,18 @@ cursor:default;
   border-radius: 50%;
   width: 60px;
   height: 60px;
+  border:2px solid #cfd8dc;
   background: #34495e;
   z-index: -2;
   -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
   -moz-transition: -moz-transform 0.2s, opacity 0.2s;
   transition: transform 0.2s, opacity 0.2s;
+}
+
+.shadow {
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
 }
 .popout1 .btn1:active:after {
   -webkit-transform: scale(0.8);
@@ -183,13 +192,14 @@ cursor:default;
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 200px;
+  width: 320px;
   z-index:999;
-  text-align: right;
+  text-align: center;
   overflow: hidden;
   visibility: hidden;
   transform: scale(0);
-  transform-origin: 10% 60%;
+  transform-origin: 17% 30%;
+  border-radius: 1000px;
   transition: transform 0.2s, visibility 0s 0.2s, opacity: 0.2s;
   opacity: 0;
 }
@@ -197,12 +207,12 @@ cursor:default;
   height: auto;
   opacity: 1;
   visibility: visible;
-  transform: scale(1);
+  transform: scale(1.0);
   transition: transform 0.2s, visibility 0s 0s, opacity 0.2s;
 }
 .popout1 .panel-header1 {
-  padding: 20px;
-  font-size: 15px;
+  padding: 40px;
+  font-size: 16px;
   background-color: #34495e;
   color: #fff;
   border-top-left-radius: 4px;
@@ -423,7 +433,7 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   margin-left: -1.5em;
   
   color: black;
-  background-color: #e53935 ; /*standard red*/
+  background-color: #e53935; /*standard red*/
   border-radius: 50%;
   text-align: center;
   line-height: 3em;
@@ -892,10 +902,17 @@ The rotateX/Y reversal is easy since it's not animated, so just use its opposite
 
 .headerSpace{
  background: #eceff1; /* For browsers that do not support gradients */    
-  height:900px;
+  min-height:600px;
 width:100%;
 padding-top:20px;
 padding-bottom:20px;
+
+}
+
+.carouselHolder{
+position: relative;
+top:18em;
+margin: 0 auto;
 
 }
 

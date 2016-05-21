@@ -200,3 +200,13 @@ $(function() {
     });
 
 
+
+    $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+        
+        
+  $(document).ready(function(){
+    $('.tooltipped').tooltip({delay: 50});
+  });
+        
