@@ -22,6 +22,7 @@ $(".popout1 .btn1").click(function() {
 $(document).click(function() {
 	$(".popout1 .panel1").removeClass("active");
 	$(".popout1 .btn1").removeClass("active");
+	System.out.print("Works!");
 });
 $(".popout1 .panel1").click(function(event) {
 	event.stopPropagation();
