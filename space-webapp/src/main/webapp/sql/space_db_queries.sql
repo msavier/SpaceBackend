@@ -3,7 +3,7 @@ create database space;
 use space;
 
 CREATE TABLE university (
-	id INT SERIAL,
+	id INT AUTO_INCREMENT NOT NULL,
 	name varchar(256) NOT NULL Unique,
     email_domain varchar(256) NOT NULL Unique,
 	PRIMARY KEY(id)
@@ -11,7 +11,7 @@ CREATE TABLE university (
 
 
 CREATE TABLE department (
-	id INT SERIAL NOT NULL,
+	id INT AUTO_INCREMENT NOT NULL,
 	name varchar(256) NOT NULL,
 	university_id INT NOT NULL,
 	PRIMARY KEY(id),
@@ -21,7 +21,7 @@ CREATE TABLE department (
 
 
 CREATE TABLE student (
-	id INT SERIAL ,
+	id INT AUTO_INCREMENT NOT NULL,
 	email_id varchar(256) NOT NULL UNIQUE,
 	name varchar(256) NOT NULL,
 	department_id INT NOT NULL,
@@ -30,7 +30,7 @@ CREATE TABLE student (
 );
 
 CREATE TABLE faculty (
-	id INT SERIAL ,
+	id INT AUTO_INCREMENT NOT NULL,
 	name varchar(256) NOT NULL UNIQUE,
 	email_id varchar(256) NOT NULL,
 	title varchar(256) NOT NULL,

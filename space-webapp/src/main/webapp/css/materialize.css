@@ -8501,13 +8501,9 @@ a.waves-effect .waves-ripple {
 }
 
 .collapsible-header i {
-  width: 33%;
-  font-size: 1.6rem;
-  line-height: 3rem;
-  display: block;
-  float: left;
-  text-align: center;
-  margin-right: 1rem;
+  
+  font-size: 4rem;
+  
 }
 
 .collapsible-body {
@@ -10380,7 +10376,7 @@ select {
 
 .slider {
   position: relative;
-  height: 400px;
+  height: 200px;
   width: 100%;
 }
 
