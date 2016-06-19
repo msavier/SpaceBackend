@@ -8946,7 +8946,7 @@ textarea.materialize-textarea + label:after {
 }
 
 .input-field .prefix.active {
-  color: blue;
+  color: #1e88e5;
 }
 
 .input-field .prefix ~ input,
@@ -8989,13 +8989,13 @@ textarea.materialize-textarea + label:after {
   background-color: #fff;
   border: 0;
   box-shadow: none;
-  color: blue;
+  color: #1e88e5;
 }
 
 .input-field input[type=search]:focus + label i,
 .input-field input[type=search]:focus ~ .mdi-navigation-close,
 .input-field input[type=search]:focus ~ .material-icons {
-  color: blue;
+  color: #1e88e5;
 }
 
 .input-field input[type=search] + label {
