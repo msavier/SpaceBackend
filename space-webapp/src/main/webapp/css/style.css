@@ -45,7 +45,8 @@ body{
 
 .mobile-fab-tip {
   position: fixed;
-  right: 85px;
+  right: 0px;
+  margin-right:-80px;
   padding:0px 0.5rem;
   text-align: right;
   background-color: #f1f1f1;
@@ -56,9 +57,10 @@ body{
 
 .mobile-fab-tip:hover {
   position: fixed;
-  right: 85px;
+  right: 0px;
   padding:0px 0.5rem;
-  text-align: right;
+  margin-right:-80px;
+  text-align: center;
   background-color: #f1f1f1;
   border-radius: 2px;
   color: black;
@@ -71,7 +73,7 @@ body{
   max-width: 100px;
   height:400px;
   position:fixed;
-  bottom: 20px; right: 2px;
+  bottom: 20px; right: 100px;
   z-index:999;
 }
 

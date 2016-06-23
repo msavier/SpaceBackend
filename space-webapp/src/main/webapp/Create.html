@@ -137,15 +137,23 @@
 
         <li class="tab col s3"><a href="#eventSpace">Event</a></li>
 
+         <li class="tab col s3"><a href="#loveSpace">Love</a></li>
+
+         <li class="tab col s3"><a href="#msSpace">Mind & Soul</a></li>
+
         <li class="tab col s3"><a href="#housingSpace">Housing</a></li>
 
         <li class="tab col s3"><a href="#tutorSpace">Tutor</a></li>
 
         <li class="tab col s3"><a href="#textbookSpace">Textbook</a></li>
 
+         <li class="tab col s3"><a href="#marketSpace">Market</a></li>
+
+         <li class="tab col s3"><a href="#jobSpace">Job</a></li>
+
         <li class="tab col s3"><a href="#carpoolSpace">Carpool</a></li>
 
-        <li class="tab col s3"><a href="#crewSpace">Crew</a></li>
+        <li class="tab col s3"><a href="#danceSpace">Dance</a></li>
 
         <li class="tab col s3"><a href="#lostSpace">Lost</a></li>
 
@@ -335,14 +343,9 @@
                     <label for="icon_prefix">Title your Project Space</label>
                 </div>
 
-                <!--Location-->
-                <div class="input-field col s12 m6">
-                    <input name="location" id="icon_prefix" type="text" class="validate">
-                    <label for="icon_prefix">Location</label>
-                </div>
             
                 <!--Type-->
-                <div class="input-field col s12 m6 black-text">
+                <div class="input-field col s12 m6 black-text" >
                     <select name="type" class="icons">
                         <option value="" disabled selected>Select a Project Type</option>
                         <option value="" class=" center">Biology Project</option>
@@ -586,6 +589,143 @@
 <!--End of Event Space Form Tab Data--> 
 </div>
 
+  <!-- Start of Love Space Tab Data   -->
+<div id="loveSpace" class="col s12">
+
+<h4 class="center textShadow">Create a Love Space
+</h4>
+
+<div class="row">
+    <div class="col s12 center">
+
+   <span style="color:black">For the one who wants to find a potential relationship. Connect through the spirit of Love.</span>
+
+   </div>
+</div>
+
+
+<div class="container">
+<div class="row">
+    
+     <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Title your Love Space</label>
+  </div>
+
+  
+
+
+ <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">In-Group Description</label>
+        </div>
+
+  <div class="input-field col s12">
+          <textarea id="textarea2" class="materialize-textarea"></textarea>
+          <label for="textarea2">Public Description</label>
+        </div>
+
+   <div class="input-field col s12 m6">
+         <div class="file-field input-field">
+      <div class="blue btn">
+        <span><i class="material-icons">camera_alt</i></span>
+        <input type="file" multiple>
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text" placeholder="Upload one or more images - Optional">
+      </div>
+    </div>
+  </div>
+     
+    <!--Form Row End-->  
+  </div>
+
+
+<div class="row">
+<button class="btn waves-effect blue waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+</div>
+<!--Form and Button Container End-->  
+</div>
+<!--End of Love Space Form Tab Data--> 
+</div>
+
+ <!-- Start of Love Space Tab Data   -->
+<div id="msSpace" class="col s12">
+
+<h4 class="center textShadow">Create a Mind & Soul Space
+</h4>
+
+<div class="row">
+    <div class="col s12 center">
+
+   <span style="color:black">To help focus and clear your mind. For those who seek enlightenment for mind, body & soul.</span>
+
+   </div>
+</div>
+
+
+<div class="container">
+<div class="row">
+    
+     <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Title your Mind & Soul Space</label>
+  </div>
+
+    
+
+  <div class="input-field col s12 m6 black-text">
+        <select class="icons">
+            <option value="" disabled selected>Type of Mind & Soul Space</option>
+            <option value="">Meditation</option>
+            <option value="">Yoga</option>
+            <option value="" >Other</option>
+        </select>
+      </div>
+
+      <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Other if selected</label>
+  </div>
+
+
+ <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">In-Group Description</label>
+        </div>
+
+  <div class="input-field col s12">
+          <textarea id="textarea2" class="materialize-textarea"></textarea>
+          <label for="textarea2">Public Description</label>
+        </div>
+
+   <div class="input-field col s12 m6">
+         <div class="file-field input-field">
+      <div class="blue btn">
+        <span><i class="material-icons">camera_alt</i></span>
+        <input type="file" multiple>
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text" placeholder="Upload one or more images - Optional">
+      </div>
+    </div>
+  </div>
+     
+    <!--Form Row End-->  
+  </div>
+
+
+<div class="row">
+<button class="btn waves-effect blue waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+</div>
+<!--Form and Button Container End-->  
+</div>
+<!--End of Mind & Soul Space Form Tab Data--> 
+</div>
 
 
   <!-- Start of Housing Space Tab Data   -->
@@ -614,11 +754,13 @@
     <div class="input-field col s12 m6 black-text">
         <select class="icons">
             <option value="" disabled selected>Select a Location</option>
-            <option value="">Mira Mesa Region</option>
+              <option value="">On-Campus</option>
+          <option value="">Mira Mesa Region</option>
             <option value="">Costa Verde Apartments</option>
+            <option value="">Carlsbad Region</option>
             <option value=""> La Jolla Region</option>
-            <option value="" > Pacific Beach</option>
-            <option value="" > Downtown</option>
+            <option value="" >Pacific Beach</option>
+            <option value="" >Downtown</option>
             <option value="" >Other</option>
         </select>
   </div>
@@ -632,28 +774,34 @@
    <div class="input-field col s12 m6 black-text">
         <select class="icons">
             <option value="" disabled selected>Select a Price</option>
+            <option value="" >Other</option>
             <option value="">$300</option>
             <option value="">$400</option>
             <option value="">$500</option>
-            <option value=""> $600</option>
-            <option value="" > $700</option>
-            <option value="" > $800</option>
+            <option value="">$600</option>
+            <option value="" >$700</option>
+            <option value="" >$800</option>
             <option value="" >$900</option>
             <option value="" >$1000</option>
             <option value="" >$1100</option>
             <option value="" >$1200</option>
             <option value="" >$1300</option>
             <option value="" >$1400</option>
-            <option value="" > $1500</option>
-            <option value="" > $1600</option>
-            <option value="" > $1700</option>
-            <option value="" > $1800</option>
-            <option value="" > $1900</option>
-            <option value="" > $1900</option>
-            <option value="" > $2000+</option>
+            <option value="" >$1500</option>
+            <option value="" >$1600</option>
+            <option value="" >$1700</option>
+            <option value="" >$1800</option>
+            <option value="" >$1900</option>
+            <option value="" >$1900</option>
+            <option value="" >$2000+</option>
             
         </select>
     
+  </div>
+
+  <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Price if Other
   </div>
 
     <div class="input-field col s12 m6 black-text">
@@ -887,6 +1035,226 @@
 <!--End of Textbook Space Form Tab Data--> 
 </div>
 
+   <!-- Start of Market Space Tab Data   -->
+<div id="marketSpace" class="col s12">
+
+<h4 class="center textShadow">Create a Market Space
+</h4>
+
+<div class="row">
+    <div class="col s12 center">
+
+   <span style="color:black">Have an item you need to sell? Maybe you're moving out and just need someone to get it off your hands. Post it on Market Space, pick an item, a price, and connect with people who need it.</span>
+
+   </div>
+</div>
+
+
+<div class="container">
+<div class="row">
+    
+     <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Title of Market Space</label>
+  </div>
+
+    
+<!--Will Be Updated Once School Sends us Info of Classes-->
+       <div class="input-field col s12 m6 black-text">
+        <select class="icons">
+            <option value="" disabled selected>Type of Item</option>
+            <option value="">Appliances</option>
+            <option value="">Arts & Crafts</option>
+            <option value="" >Car</option>
+            <option value="" >Motorcycle</option>
+            <option value="" >Bicycle</option>
+            <option value="" >Computer</option>
+            <option value="" >Phone</option>
+            <option value="" >Electronics</option>
+            <option value="" >Tools</option>
+            <option value="" >Sporting</option>
+            <option value="" >Clothes</option>
+            <option value="" >Video Games</option>
+            <option value="" >Furniture</option>
+            <option value="" >Other item</option>
+
+        </select>
+    </div>
+
+    <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Other item if selected</label>
+  </div>
+
+   <div class="input-field col s12 m6 black-text">
+        <select class="icons">
+            <option value="" disabled selected>Select a Price</option>
+            <option value="" class=" center">Free</option>
+            <option value="" class=" center">$10</option>
+            <option value="">$20</option>
+            <option value="" > $30</option>
+            <option value="" > $40</option>
+            <option value="" > $50</option>
+            <option value="" > $60</option>
+            <option value="" > $70</option>
+            <option value="" > $80</option>
+            <option value="" > $90</option>
+            <option value="" > $100</option>
+            <option value="" > $110</option>
+            <option value="" > $120</option>
+            <option value="" > $130</option>
+            <option value="" > $140</option>
+            <option value="" > $150+</option>
+            <option value="" > Other Price</option>
+        </select>
+      </div>
+
+      <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Other Price if Selected</label>
+  </div>
+
+ <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Description</label>
+        </div>
+
+   <div class="input-field col s12 m6">
+         <div class="file-field input-field">
+      <div class="blue btn">
+        <span><i class="material-icons">camera_alt</i></span>
+        <input type="file" multiple>
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text" placeholder="Upload one or more images - Optional">
+      </div>
+    </div>
+  </div>
+     
+    <!--Form Row End-->  
+  </div>
+
+
+<div class="row">
+<button class="btn waves-effect blue waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+</div>
+<!--Form and Button Container End-->  
+</div>
+<!--End of Market Space Form Tab Data--> 
+</div>
+
+  <!-- Start of Job Space Tab Data   -->
+<div id="jobSpace" class="col s12">
+
+<h4 class="center textShadow">Create a Job Space
+</h4>
+
+<div class="row">
+    <div class="col s12 center">
+
+   <span style="color:black">Have a job that needs to get done? Select the type of job and the hourly rate and post it on Job Space. Highly advisable to sign a contract for both parties before work begins.</span>
+
+   </div>
+</div>
+
+
+<div class="container">
+<div class="row">
+    
+     <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Title of Job Space</label>
+  </div>
+
+    
+       <div class="input-field col s12 m6 black-text">
+        <select class="icons">
+            <option value="" disabled selected>Type of Job</option>
+            <option value="">Accounting/Finance</option>
+            <option value="">Admin/Office</option>
+            <option value="" >Structural Engineering</option>
+            <option value="" >Electrical Engineering</option>
+            <option value="" >Computer Engineering</option>
+            <option value="" >Cellular Biology</option>
+             <option value="" >Medical/Health</option>
+            <option value="" >Education</option>
+            <option value="" >Customer Service</option>
+            <option value="" >Human Resources</option>
+            <option value="" >Real Estate</option>
+            <option value="" >Sales</option>
+            <option value="" >Skilled Trade/Crafts</option>
+            <option value="" >Transportation</option>
+            <option value="" >Website Design</option>
+            <option value="" >Writing/Editing</option>
+            <option value="" >Other Job</option>
+
+        </select>
+    </div>
+
+    <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Other Job if selected</label>
+  </div>
+
+
+       <div class="input-field col s12 m6 black-text">
+        <select class="icons">
+            <option value="" disabled selected>Select a Price</option>
+            <option value="" class="center">Free</option>
+            <option value="" class="center">$10/Hr</option>
+            <option value="">$20/Hr</option>
+            <option value="" >$30/Hr</option>
+            <option value="" >$40/Hr</option>
+            <option value="" >$50/Hr</option>
+            <option value="" >$60/Hr</option>
+            <option value="" >Other Price</option>
+        </select>
+      </div>
+
+      <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Other Price if Selected</label>
+  </div>
+
+ <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">In-Group Description</label>
+        </div>
+
+  <div class="input-field col s12">
+          <textarea id="textarea2" class="materialize-textarea"></textarea>
+          <label for="textarea2">Public Description</label>
+        </div>
+
+   <div class="input-field col s12 m6">
+         <div class="file-field input-field">
+      <div class="blue btn">
+        <span><i class="material-icons">camera_alt</i></span>
+        <input type="file" multiple>
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text" placeholder="Upload one or more images - Optional">
+      </div>
+    </div>
+  </div>
+     
+    <!--Form Row End-->  
+  </div>
+
+
+<div class="row">
+<button class="btn waves-effect blue waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+</div>
+<!--Form and Button Container End-->  
+</div>
+<!--End of Job Space Form Tab Data--> 
+</div>
+
+
 
 
    <!-- Start of Carpool Space Tab Data   -->
@@ -917,12 +1285,19 @@
             <option value="">On-Campus</option>
             <option value="">Costa Verde</option>
             <option value="">Mira Mesa</option>
+            <option value="">Carlsbad</option>
+            <option value="">Pacific Beach</option>
             <option value="">La Jolla Shores</option>
             <option value="" >Los Angeles</option>
             <option value="" >San Francisco</option>
             <option value="" >Other</option>
         </select>
     
+  </div>
+
+  <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Destination if Other</label>
   </div>
 
 
@@ -939,6 +1314,11 @@
             <option value="" >Other Price</option>
         </select>
       </div>
+
+      <div class="input-field col s12 m6">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Other Price if Selected</label>
+  </div>
 
  <div class="input-field col s12">
           <textarea id="textarea1" class="materialize-textarea"></textarea>
@@ -978,16 +1358,16 @@
 
 
 
-   <!-- Start of Crew Space Tab Data   -->
-<div id="crewSpace" class="col s12">
+   <!-- Start of dance Space Tab Data   -->
+<div id="danceSpace" class="col s12">
 
-<h4 class="center textShadow">Create a Crew Space
+<h4 class="center textShadow">Create a Dance Space
 </h4>
 
 <div class="row">
     <div class="col s12 center">
 
-   <span style="color:black">Create a Space for your Dance Crew. Find other UCSD students and compete with Crew Space</span>
+   <span style="color:black">Create a Space for your Dance Crew. Find other UCSD students and Dance!</span>
    </div>
 </div>
 
@@ -997,7 +1377,7 @@
     
      <div class="input-field col s12 m6">
           <input id="icon_prefix" type="text" class="validate">
-          <label for="icon_prefix">Title your Crew Space</label>
+          <label for="icon_prefix">Title your Dance Space</label>
   </div>
 
   <div class="input-field col s12 m6 black-text">
@@ -1005,6 +1385,7 @@
             <option value="" disabled selected>Style of Dance</option>
             <option value="">Hip-Hop</option>
             <option value="">Jazz</option>
+            <option value="">Salsa</option>
             <option value="" > Other Style</option>
         </select>
       </div>
@@ -1047,7 +1428,7 @@
 </div>
 <!--Form and Button Container End-->  
 </div>
-<!--End of Crew Space Form Tab Data--> 
+<!--End of Dance Space Form Tab Data--> 
 </div>
 
 
