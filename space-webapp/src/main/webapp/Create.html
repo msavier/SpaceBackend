@@ -51,7 +51,7 @@
 
 
   
-    <ul id="slide-out" class="side-nav blue-grey darken-3">
+    <ul id="slide-out" class="side-nav black">
            
     <!-- SideNav Buttons   -->
   <div style="height:2em"></div> 
@@ -87,23 +87,23 @@
 
 
 
-<a id="profileNav"style="font-size:1.5em; font-family: Righteous; margin-top:25px; left:10px; width:100px; height:100px; border:2px solid #1e88e5; border-radius:6px" href="Profile.html" class="hoverable valign-wrapper waves-effect blue-grey darken-3 white-text waves-light center"><i class=" material-icons white-text valign">person_pin</i><span class="white-text" style="position:relative; bottom:25px">Profile</span></a>
+<a id="profileNav"style="font-size:1.5em; font-family: Righteous; margin-top:25px; left:10px; width:100px; height:100px; border:2px solid #1e88e5; border-radius:6px" href="Profile.html" class="hoverable valign-wrapper waves-effect black white-text waves-light center"><i class=" material-icons white-text valign">person_pin</i><span class="white-text" style="position:relative; bottom:25px">Profile</span></a>
     
-  <a id="mySpacesNav" style="font-size:1.5em; font-family: Righteous; margin-top:-100px; left:128px; width:100px; height:100px; border:2px solid #00e676; border-radius:6px "  href="home.html" class="hoverable valign-wrapper waves-effect blue-grey darken-3 white-text waves-light center"><i class=" material-icons valign" style="color:white">home</i><span style="position:relative; bottom:25px; color:white">Home</span></a>
-    
-</div>
-
-<div>
-<a style="font-size:1.5em; margin-top:25px; font-family: Righteous; left:10px; width:100px; height:100px; border:2px solid #e53935; border-radius:6px " href="Create.html" class="hoverable valign-wrapper waves-effect blue-grey darken-3 white-text waves-light center"><i class=" material-icons valign">add_circle_outline</i><span style="position:relative; bottom:25px">Create</span></a>
-    
-<a style="font-size:1.5em; margin-top:-100px; left:128px; width:100px; font-family: Righteous; height:100px; border:2px solid #ffb300; border-radius:6px "  href="Join.html" class="hoverable valign-wrapper waves-effect blue-grey darken-3 white-text waves-light center"><i class=" material-icons white-text valign">group_add</i><span style="position:relative; bottom:25px">Join</span></a>
+  <a id="mySpacesNav" style="font-size:1.5em; font-family: Righteous; margin-top:-100px; left:128px; width:100px; height:100px; border:2px solid #00e676; border-radius:6px "  href="home.html" class="hoverable valign-wrapper waves-effect black white-text waves-light center"><i class=" material-icons valign" style="color:white">home</i><span style="position:relative; bottom:25px; color:white">Home</span></a>
     
 </div>
 
 <div>
-<a style="font-size:1.4em; margin-top:20px; font-family: Righteous; left:10px; width:100px; height:100px; border:2px solid #cedce7; border-radius:6px " href="Settings.html" class="hoverable valign-wrapper waves-effect blue-grey darken-3 white-text waves-light center"><i class=" material-icons valign" style="color:white">settings</i><span style="position:relative; bottom:25px; right:5px">Settings</span></a>
+<a style="font-size:1.5em; margin-top:25px; font-family: Righteous; left:10px; width:100px; height:100px; border:2px solid #e53935; border-radius:6px " href="Create.html" class="hoverable valign-wrapper waves-effect black white-text waves-light center"><i class=" material-icons valign">add_circle_outline</i><span style="position:relative; bottom:25px">Create</span></a>
     
-<a style="font-size:1.5em; margin-top:-100px; font-family: Righteous; left:128px; width:100px; height:100px; border:2px solid white; border-radius:6px " href="" class="hoverable valign-wrapper waves-effect blue-grey darken-3 white-text waves-light center"><i class=" material-icons white-text valign">exit_to_app</i><span style="position:relative; bottom:25px">Logout</span></a>
+<a style="font-size:1.5em; margin-top:-100px; left:128px; width:100px; font-family: Righteous; height:100px; border:2px solid #ffb300; border-radius:6px "  href="Join.html" class="hoverable valign-wrapper waves-effect black white-text waves-light center"><i class=" material-icons white-text valign">group_add</i><span style="position:relative; bottom:25px">Join</span></a>
+    
+</div>
+
+<div>
+<a style="font-size:1.4em; margin-top:20px; font-family: Righteous; left:10px; width:100px; height:100px; border:2px solid #cedce7; border-radius:6px " href="Settings.html" class="hoverable valign-wrapper waves-effect black white-text waves-light center"><i class=" material-icons valign" style="color:white">settings</i><span style="position:relative; bottom:25px; right:5px">Settings</span></a>
+    
+<a style="font-size:1.5em; margin-top:-100px; font-family: Righteous; left:128px; width:100px; height:100px; border:2px solid white; border-radius:6px " href="" class="hoverable valign-wrapper waves-effect black white-text waves-light center"><i class=" material-icons white-text valign">exit_to_app</i><span style="position:relative; bottom:25px">Logout</span></a>
     
 </div>
 
@@ -189,12 +189,19 @@
           <label for="icon_prefix">Location</label>
   </div>
     
- <div class="input-field col s12 m6">
+ <div class="input-field col s12">
           <input id="icon_prefix" type="text" class="validate">
           <label for="icon_prefix">Emails of Participants</label>
   </div>
 
-  <div class="input-field col s12 m6">
+
+
+   <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">In-Group Description</label>
+        </div>
+
+     <div class="input-field col s12 m6 offset-m3">
          <div class="file-field input-field">
       <div class="blue btn">
         <span><i class="material-icons">camera_alt</i></span>
@@ -204,15 +211,7 @@
         <input class="file-path validate" type="text" placeholder="Upload one or more images - Optional">
       </div>
     </div>
-  </div>
-
-
-   <div class="input-field col s12">
-          <textarea id="textarea1" class="materialize-textarea"></textarea>
-          <label for="textarea1">In-Group Description</label>
-        </div>
-
-     
+  </div>  
     <!--Form Row End-->  
   </div>
 
@@ -290,7 +289,7 @@
                 </div>
 
                 <!--Images-->
-               <div class="input-field col s12 m6">
+               <div class="input-field col s12 m6 offset-m3">
          <div class="file-field input-field">
       <div class="blue btn">
         <span><i class="material-icons">camera_alt</i></span>
@@ -360,7 +359,7 @@
                 </div>
 
                 <!--Other Type-->
-                <div name="other-type" class="input-field col s12 m6">
+                <div name="other-type" class="input-field col s12 m6 offset-m3">
                         <input id="icon_prefix" type="text" class="validate">
                         <label for="icon_prefix">Type of Project if Other</label>
                 </div>
@@ -378,7 +377,7 @@
                 </div>
 
                 <!--Images-->
-              <div class="input-field col s12 m6">
+              <div class="input-field col s12 m6 offset-m3">
          <div class="file-field input-field">
       <div class="blue btn">
         <span><i class="material-icons">camera_alt</i></span>
@@ -480,7 +479,7 @@
           <label for="textarea2">Public Description</label>
         </div>
 
-   <div class="input-field col s12 m6">
+   <div class="input-field col s12 m6 offset-m3">
          <div class="file-field input-field">
       <div class="blue btn">
         <span><i class="material-icons">camera_alt</i></span>
@@ -563,7 +562,7 @@
           <label for="textarea2">Public Description</label>
         </div>
 
-   <div class="input-field col s12 m6">
+   <div class="input-field col s12 m6 offset-m3">
          <div class="file-field input-field">
       <div class="blue btn">
         <span><i class="material-icons">camera_alt</i></span>
@@ -607,13 +606,58 @@
 <div class="container">
 <div class="row">
     
-     <div class="input-field col s12 m6">
+     <div class="input-field col s12 m6 offset-m3">
           <input id="icon_prefix" type="text" class="validate">
           <label for="icon_prefix">Title your Love Space</label>
   </div>
 
-  
+    <div class="input-field col s12 m6 black-text">
+        <select class="icons">
+            <option value="" disabled selected>I am a </option>
+            <option value="" >Heterosexual Male</option>
+            <option value="">Heterosexual Female</option>
+            <option value="">Homosexual Male</option>
+            <option value="">Homosexual Female</option>
+            <option value="">Metrosexual</option>
+             <option value="">Bigender</option>
+             <option value="">Bicurious</option>
+             <option value="">Bisexual</option>
+             <option value="">Demisexual</option>
+             <option value="">Drag King</option>
+             <option value="">Drag Queen</option>
+             <option value="">Dyke</option>
+             <option value="">Transgender Male</option>
+             <option value="">Transsexual Male</option>
+              <option value="">Transgender Female</option>
+             <option value="">Transsexual Female</option>
+            
+        </select>
+    
+  </div>
 
+  <div class="input-field col s12 m6 black-text">
+        <select class="icons">
+            <option value="" disabled selected>Seeking a</option>
+             <option value="" >Heterosexual Male</option>
+            <option value="">Heterosexual Female</option>
+            <option value="">Homosexual Male</option>
+            <option value="">Homosexual Female</option>
+            <option value="">Metrosexual</option>
+             <option value="">Bigender</option>
+             <option value="">Bicurious</option>
+             <option value="">Bisexual</option>
+             <option value="">Demisexual</option>
+             <option value="">Drag King</option>
+             <option value="">Drag Queen</option>
+             <option value="">Dyke</option>
+             <option value="">Transgender Male</option>
+             <option value="">Transsexual Male</option>
+              <option value="">Transgender Female</option>
+             <option value="">Transsexual Female</option>
+            
+        </select>
+    
+  </div>
 
  <div class="input-field col s12">
           <textarea id="textarea1" class="materialize-textarea"></textarea>
@@ -625,14 +669,14 @@
           <label for="textarea2">Public Description</label>
         </div>
 
-   <div class="input-field col s12 m6">
+   <div class="input-field col s12 m6 offset-m3">
          <div class="file-field input-field">
       <div class="blue btn">
         <span><i class="material-icons">camera_alt</i></span>
         <input type="file" multiple>
       </div>
       <div class="file-path-wrapper">
-        <input class="file-path validate" type="text" placeholder="Upload one or more images - Optional">
+        <input class="file-path validate" type="text" placeholder="Upload a pic of you - Optional">
       </div>
     </div>
   </div>
@@ -685,7 +729,7 @@
         </select>
       </div>
 
-      <div class="input-field col s12 m6">
+      <div class="input-field col s12 m6 offset-m3">
           <input id="icon_prefix" type="text" class="validate">
           <label for="icon_prefix">Other if selected</label>
   </div>
@@ -701,7 +745,7 @@
           <label for="textarea2">Public Description</label>
         </div>
 
-   <div class="input-field col s12 m6">
+   <div class="input-field col s12 m6 offset-m3">
          <div class="file-field input-field">
       <div class="blue btn">
         <span><i class="material-icons">camera_alt</i></span>
@@ -824,7 +868,7 @@
           <label for="textarea2">Public Description</label>
         </div>
 
-   <div class="input-field col s12 m6">
+   <div class="input-field col s12 m6 offset-m3">
          <div class="file-field input-field">
       <div class="blue btn">
         <span><i class="material-icons">camera_alt</i></span>
@@ -910,7 +954,7 @@
           <label for="textarea2">Public Description</label>
         </div>
 
-   <div class="input-field col s12 m6">
+   <div class="input-field col s12 m6 offset-m3">
          <div class="file-field input-field">
       <div class="blue btn">
         <span><i class="material-icons">camera_alt</i></span>
@@ -1009,7 +1053,7 @@
           <label for="textarea2">Public Description</label>
         </div>
 
-   <div class="input-field col s12 m6">
+   <div class="input-field col s12 m6 offset-m3">
          <div class="file-field input-field">
       <div class="blue btn">
         <span><i class="material-icons">camera_alt</i></span>
@@ -1109,7 +1153,7 @@
         </select>
       </div>
 
-      <div class="input-field col s12 m6">
+      <div class="input-field col s12 m6 offset-m3">
           <input id="icon_prefix" type="text" class="validate">
           <label for="icon_prefix">Other Price if Selected</label>
   </div>
@@ -1119,7 +1163,7 @@
           <label for="textarea1">Description</label>
         </div>
 
-   <div class="input-field col s12 m6">
+   <div class="input-field col s12 m6 offset-m3">
          <div class="file-field input-field">
       <div class="blue btn">
         <span><i class="material-icons">camera_alt</i></span>
@@ -1213,7 +1257,7 @@
         </select>
       </div>
 
-      <div class="input-field col s12 m6">
+      <div class="input-field col s12 m6 offset-m3">
           <input id="icon_prefix" type="text" class="validate">
           <label for="icon_prefix">Other Price if Selected</label>
   </div>
@@ -1228,7 +1272,7 @@
           <label for="textarea2">Public Description</label>
         </div>
 
-   <div class="input-field col s12 m6">
+   <div class="input-field col s12 m6 offset-m3">
          <div class="file-field input-field">
       <div class="blue btn">
         <span><i class="material-icons">camera_alt</i></span>
@@ -1279,7 +1323,7 @@
           <label for="icon_prefix">Title your Carpool Space</label>
   </div>
 
-  <div class="input-field col s12 m6 offset-m3 black-text">
+  <div class="input-field col s12 m6 black-text">
         <select class="icons">
             <option value="" disabled selected>Select Destination</option>
             <option value="">On-Campus</option>
@@ -1315,7 +1359,7 @@
         </select>
       </div>
 
-      <div class="input-field col s12 m6">
+      <div class="input-field col s12 m6 offset-m3">
           <input id="icon_prefix" type="text" class="validate">
           <label for="icon_prefix">Other Price if Selected</label>
   </div>
@@ -1330,7 +1374,7 @@
           <label for="textarea2">Public Description</label>
         </div>
 
-   <div class="input-field col s12 m6">
+   <div class="input-field col s12 m6 offset-m3">
          <div class="file-field input-field">
       <div class="blue btn">
         <span><i class="material-icons">camera_alt</i></span>
@@ -1390,7 +1434,7 @@
         </select>
       </div>
 
-       <div class="input-field col s12 m6">
+       <div class="input-field col s12 m6 offset-m3">
           <input id="icon_prefix" type="text" class="validate">
           <label for="icon_prefix">Style of Dance if Other</label>
   </div>
@@ -1405,7 +1449,7 @@
           <label for="textarea2">Public Description</label>
         </div>
 
-   <div class="input-field col s12 m6">
+   <div class="input-field col s12 m6 offset-m3">
          <div class="file-field input-field">
       <div class="blue btn">
         <span><i class="material-icons">camera_alt</i></span>
@@ -1464,7 +1508,7 @@
         </select>
     </div>
 
-       <div class="input-field col s12 m6">
+       <div class="input-field col s12 m6 offset-m3">
           <input id="icon_prefix" type="text" class="validate">
           <label for="icon_prefix">Type of Item if Other</label>
   </div>
@@ -1479,7 +1523,7 @@
           <label for="textarea2">Public Description</label>
         </div>
 
-   <div class="input-field col s12 m6">
+   <div class="input-field col s12 m6 offset-m3">
          <div class="file-field input-field">
       <div class="blue btn">
         <span><i class="material-icons">camera_alt</i></span>
