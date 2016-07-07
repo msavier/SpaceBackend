@@ -367,6 +367,9 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   
   color: black;
   background-color: #1e88e5; /*standard blue*/
+  background: -moz-linear-gradient(-45deg, #1e88e5 0%, #18ffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #1e88e5 0%,#18ffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #1e88e5 0%,#18ffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   border-radius: 50%;
   text-align: center;
   line-height: 3em;
@@ -410,6 +413,9 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   
   color: black;
   background-color: #00e676; /*standard green*/
+  background: -moz-linear-gradient(-45deg, #00c853 0%,  #00e676 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #00c853 0%, #00e676 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #00c853 0%, #00e676 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   border-radius: 50%;
   text-align: center;
   line-height: 3em;
@@ -453,6 +459,9 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   
   color: black;
   background-color: #ffb300; /*standard yellow*/
+  background: -moz-linear-gradient(-45deg, #ffb300 0%,  #ffeb3b 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #ffb300 0%, #ffeb3b 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #ffb300 0%, #ffeb3b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   border-radius: 50%;
   text-align: center;
   line-height: 3em;
@@ -495,6 +504,9 @@ background: linear-gradient(135deg, #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF1
   
   color: black;
   background-color: #e53935; /*standard red*/
+  background: -moz-linear-gradient(-45deg, #e53935 0%,  #ef6c00 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #e53935 0%, #ef6c00 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #e53935 0%, #ef6c00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   border-radius: 50%;
   text-align: center;
   line-height: 3em;
