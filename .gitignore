@@ -1,0 +1,13 @@
+# ignore the container (changes are not made to this)
+glassfish4/
+
+# ignore vim backup files and swap files
+*.swp
+*.swo
+*~
+
+#ignore the target folder (where package is created)
+space-webapp/target/
+
+#windows hidden folder settings
+desktop.ini
